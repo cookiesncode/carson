@@ -1,0 +1,17 @@
+.tencsh .th img {
+	height:150px;
+	width:150px;
+	float:left;
+}
+
+.th {
+	margin: 0 10px 10px 0;
+}
+
+.gallery {
+	li {
+		display: inline-block;
+		list-style-type: none;
+		margin: 5px;
+	}
+}

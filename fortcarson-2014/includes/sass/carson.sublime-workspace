@@ -1,0 +1,1237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"false",
+				"false"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"temp",
+				"temp_f"
+			],
+			[
+				"te",
+				"temperature"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"response",
+				"responseXML"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ls",
+				"list-style-type"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"today",
+				"today_mon"
+			],
+			[
+				"to",
+				"today_num"
+			],
+			[
+				"fore",
+				"forecast_json"
+			],
+			[
+				"suns",
+				"sunsetMin"
+			],
+			[
+				"moo",
+				"moon_phase"
+			],
+			[
+				"mo",
+				"moon_phase"
+			],
+			[
+				"weat",
+				"weather_json"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"sun",
+				"sunriseMin"
+			],
+			[
+				"js",
+				"jsonp"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"med",
+				"medium-gray"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"me",
+				"medium-gray"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/index.html",
+			"settings":
+			{
+				"buffer_size": 41764,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/test",
+			"settings":
+			{
+				"buffer_size": 878,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/css/app.css",
+			"settings":
+			{
+				"buffer_size": 239200,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/slideshow.js",
+			"settings":
+			{
+				"buffer_size": 22562,
+				"line_ending": "Windows",
+				"name": "var count = 1;"
+			}
+		},
+		{
+			"file": "_custom.scss",
+			"settings":
+			{
+				"buffer_size": 13765,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.scss",
+			"settings":
+			{
+				"buffer_size": 2419,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_settings.scss",
+			"settings":
+			{
+				"buffer_size": 36944,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/rss.js",
+			"settings":
+			{
+				"buffer_size": 1344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/main.full.js",
+			"settings":
+			{
+				"buffer_size": 451109,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/main.js",
+			"settings":
+			{
+				"buffer_size": 204809,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/exit-link.js",
+			"settings":
+			{
+				"buffer_size": 714,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/min/main.full.min.js",
+			"settings":
+			{
+				"buffer_size": 201314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/david.m.newcomb/Documents/sites/carson/weather.html",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"lines",
+				"Package Control: Install Package"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLint: Report (Open Files)"
+			],
+			[
+				"readmep",
+				"ReadmePlease"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 402.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/SSD/SMB/WEB/WebTools/Visio 2010/Key - Visio 2010 Premium.txt",
+		"/C/Users/david.m.newcomb/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/test",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/main.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/css/app.css",
+		"/C/Users/david.m.newcomb/AppData/Local/Temp/1/Temp1_mysql-advanced-5.6.15-win32.zip/mysql-advanced-5.6.15-win32/README",
+		"/C/Users/david.m.newcomb/AppData/Local/Temp/1/Temp1_V41886-01.zip/README.txt",
+		"/C/Users/david.m.newcomb/Desktop/Test.txt",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/weatherAPI.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/weather2.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/img/crests/edited/4ID_Crest_Effects.png",
+		"//carsportal.carson.army.mil/DavWWWRoot/4id/bde/1bct/batt/4sb/pstaff/s6/Lists/TroubleTickets/NewForm_copy(1).aspx",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/weather.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/_custom.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/_settings.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/rss.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/main.full.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/img/leaders/clark_small.jpg",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/4id-csm.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/weatherAPIWorking.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/reporting.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/exit-link.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/flickr.js",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/reporting.js",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/4id/leaders/1bct/1bct-cdr.html",
+		"/C/Users/david.m.newcomb/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/PIHB4JXW/httpd.conf",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/vendor/jquerypp.custom.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/units.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/calendar.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/paio/Templates/sustainable.dwt",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/paio/sustainability.html",
+		"/C/users/davidm~1.new/appdata/local/temp/1/sublime-sftp-browse-1386611602/test/export/webdata/webdata/test/usethis",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/clark.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/4id/leaders/index.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/4id/leaders/cmd-csm.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/leaders.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/min/main.min.js",
+		"/C/Users/david.m.newcomb/Downloads/Capture.MHT",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/pao.html",
+		"/C/Users/david.m.newcomb/Desktop/reporting.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/vendor/jquery.elastislide.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/min/weatherAPI.min.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/facebook.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/blue-coat/disclaimer.js",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/blue-coat/blue-coat.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/disclaimer.js",
+		"/C/Users/david.m.newcomb/Documents/alert.txt",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/SSD/SMB/WEB/WebTools/Newcomb/facebook.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/channel.html",
+		"/C/Users/david.m.newcomb/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/PIHB4JXW/facebook warning code.txt",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/humans.txt",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/jquery.cookie.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/test.html",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/soapjs-master/soapjs-master/lib/soap-client.js",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/soapjs-master/soapjs-master/lib/soap.js",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/soapjs-master/soapjs-master/lib/soap-request.js",
+		"/C/Users/david.m.newcomb/Desktop/crossdomain.xml",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/soapjs-master/soapjs-master/lib/soap-param.js",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/index.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/course-manager.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/dep-commandant.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/commandant.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/contact.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/4id-cdr.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/weather.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/foundation/foundation.js",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/utf8''tutorial5/tutorial/schedule.htm",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/responsive-tables-master/responsive-tables-master/responsive-tables.js",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/responsive-tables-master/responsive-tables-master/responsive-tables.css",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/Templates/wlc-master.dwt",
+		"/C/Users/david.m.newcomb/Desktop/form-practice/form-one.html",
+		"/C/Users/david.m.newcomb/Desktop/form-practice/app.js",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/units/wlc/_assets/scripts/utility.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/vendor/jquery.js",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/utf8''tutorial5/tutorial/tables.css",
+		"/C/Users/david.m.newcomb/Desktop/schedule.htm",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/utf8''tutorial5/tutorial/kpaf.css",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/foundation/foundation.orbit.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/facebook.js",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/SSD/SMB/WEB/WebTools/Newcomb/flickr.txt",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/SSD/SMB/WEB/WebTools/Newcomb/README.txt",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/SSD/SMB/WEB/WebTools/Newcomb/facebook.txt",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/SSD/SMB/WEB/WebTools/Newcomb/facebook.js.txt",
+		"/C/Users/david.m.newcomb/Downloads/Elastislide/js/jquery.elastislide.js",
+		"//carspublic.carson.army.mil/DavWWWRoot/fcpps/pao/events_4id.aspx",
+		"//carspublic.carson.army.mil/DavWWWRoot/fcpps/pao/press releases.aspx",
+		"//carspublic.carson.army.mil/DavWWWRoot/fcpps/pao/PressReleasesWorkingCopy.aspx",
+		"/C/Users/david.m.newcomb/Downloads/Compressed/FitText.js-master/FitText.js-master/example.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/dep-gar.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/dir-sup.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/gar-cdr.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/gar-csm.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/man-cdr.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/snr-cdr.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/leaders/sup-cdr.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/foundation/components/_block-grid.scss",
+		"/C/Users/david.m.newcomb/AppData/Local/Temp/1/Temp1_foundation-4.3.2.zip/js/foundation.min.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/foundation/components/_top-bar.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/foundation/components/_global.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/_ie8.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/foundation/components/_grid.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/app.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/_normalize.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/css/ie8-topbar.css",
+		"/C/Users/david.m.newcomb/Downloads/foundation-3.2.5/foundation/stylesheets/foundation.css",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/modernizr.js",
+		"/C/sitemap.xml",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/vendor/jquery.corner.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/modernizr.carson.js",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/vendor/modernizr.custom.17475.js",
+		"//carspublic.carson.army.mil/DavWWWRoot/fcpps/pao/events.aspx",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/vendor/custom.modernizr.js",
+		"/C/Users/david.m.newcomb/Documents/sites/no-response/includes/js/flickr.js",
+		"/C/Users/david.m.newcomb/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/sass/foundation/components/_section.scss",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/index.html",
+		"/C/Users/david.m.newcomb/Documents/sites/foundation/carson/index (2).html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/press.html",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/css/ie8-grid.css",
+		"/C/Users/david.m.newcomb/Documents/sites/carson/includes/css/elastislide.css",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/wininger.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/chisholm.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/csm.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/grosso.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/thomson.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/rainey.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/bills.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/FortCarson2010/leaders/stall.html",
+		"//carsnecxa7x0001/shares/groups/NETCOM/NEC/PAOweb/pao/public_information.htm"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"C:\\Users\\david.m.newcomb\\Documents\\sites\\carson",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://www.carson.army.mil/",
+			"li",
+			"div",
+			"</li>",
+			"<li>",
+			"</li>",
+			"<li>",
+			"status",
+			"5",
+			"&nbsp;",
+			"td",
+			"rss",
+			"../",
+			".htacces",
+			".htaccess",
+			".htaccessls",
+			".htaccess",
+			"759",
+			"gzip",
+			" border: solid 2px; margin: 1px;",
+			"' ' + deg",
+			"+ ' '",
+			"']",
+			"['",
+			"']",
+			"['",
+			"']",
+			"['",
+			"']",
+			"['",
+			"1",
+			"0",
+			"1",
+			"5",
+			"']['",
+			"weatherAPI.js",
+			"details",
+			"exception",
+			"$(exception.details)",
+			"script",
+			"$(exception.details)",
+			"facebook",
+			"weather",
+			"padding: 5px !important;",
+			"10px",
+			"10",
+			"navi",
+			"red",
+			"report",
+			"roads",
+			"desc_text_1",
+			"units",
+			"contents",
+			"\n\na:link, a:visited {\n  color: $primary-color !important;\n  text-decoration: none;\n}\n\na:hover, a:active {\n  color: $Army-Green !important;\n  text-decoration: none;\n}\n\n.padding {\n  padding: 0 !important;\n  background: $medium-gray;\n\n}\n\n.header {\n  background: url(../img/homepage_banner.png) no-repeat;\n  vertical-align: top;\n\n  h2{\n    padding: 0;\n    margin: 0 0 0 80px;\n    color:  #fff;\n    font-size: 1em;\n    text-transform: uppercase;\n  }\n\n  h1 {\n    padding: 0;\n    color: #fff;\n    margin: -45px 0 0 85px;\n  }\n\n  .carson {\n    margin-top: -5px;\n  }\n\n  .head_links {\n\n    li:first-child{\n      list-style-type: none;\n      padding: 0;\n      margin: 0;\n\n      a:link, a:visited{\n        p {\n          padding: 0;\n          background-color: $temperature;\n          color: #fff !important;\n          font-weight: bold !important;\n          margin: 0;\n        }\n      }\n\n      a:active, a:hover{\n        p {\n          padding: 0;\n          background-color: darken($temperature, 10%);\n          color: #fff !important;\n          font-weight: bold !important;\n          margin: 0;\n        }\n      }\n    }\n\n    li:nth-child(2){\n      list-style-type: none;\n      padding: 0;\n      margin: 0;\n\n      a:link, a:visited{\n        p {\n          padding: 0;\n          background-color: $road;\n          color: #fff !important;\n          font-weight: bold !important;\n          margin: 0;\n        }\n      }\n\n      a:active, a:hover{\n        p {\n          padding: 0;\n          background-color: darken($road, 10%);\n          color: #fff !important;\n          font-weight: bold !important;\n          margin: 0;\n        }\n      }\n    }\n\n    li:last-child {\n      list-style-type: none;\n      padding: 0;\n      margin: 0;\n\n      a:link, a:visited{\n        p {\n          padding: 0;\n          background-color: $reporting;\n          color: #fff !important;\n          font-weight: bold !important;\n          margin: 0;\n        }\n      }\n\n      a:active, a:hover{\n        p {\n          padding: 0;\n          background-color: darken($reporting, 10%);\n          color: #fff !important;\n          font-weight: bold !important;\n          margin: 0;\n        }\n      }\n    }\n  }\n\n  .head-weather {\n    padding: 0;\n    margin: 0;\n  }\n\n  img {\n    width: 90px;\n    padding-right: 10px;\n    margin-top: 35px;\n    padding-bottom: 5px;\n  }\n\n}\n\n.mid-weather {\n  display: none;\n}\n\n.wrapper {\n  background: #fff;\n}\n\n@media (min-width: $small-screen) {\n\n  .environment, .resources, .faq {\n    ul {\n      height: 180px;\n    }\n  }\n\n  .radar {\n    text-align: center;\n    img {\n      width: 50%;\n    }\n  }\n\n}\n\n@media (max-width: $small-screen) {\n\n  .side-nav {\n    display: none;\n  }\n\n  .units {\n    p {\n      font-size: .7em;\n    }\n  }\n\n  .TenDay_redraw {\n    table, thead, tbody, th, td, tr {\n      display: block;\n    }\n\n    thead tr {\n      position: absolute;\n      top: -9999px;\n      left: -9999px;\n    }\n\n    tr {\n      border: 1px solid #ccc;\n    }\n\n    td {\n      border: none;\n      border-bottom: 1px solid #eee;\n      position: relative;\n      padding-left: 50%;\n    }\n\n    td:before {\n      position: absolute;\n      top: 6px;\n      left: 6px;\n      width: 50%;\n      padding-right: 10px;\n      white-space: nowrap;\n    }\n\n    td:nth-of-type(1):before { content: \"Date\"; }\n    td:nth-of-type(2):before { content: \"Condition\"; }\n    td:nth-of-type(3):before { content: \"High\"; }\n    td:nth-of-type(4):before { content: \"Low\"; }\n    td:nth-of-type(5):before { content: \"Precip\"; }\n  }\n\n  h1 {\n    font-size: 2em;\n  }\n\n  h2 {\n    font-size: 1em;\n  }\n\n  .contents {\n    ul {\n      margin: -30px 0 0 0;\n      text-align: center;\n      padding-top: 0;\n\n      li {\n        display: inline-block;\n      }\n    }\n    .divider {\n      display: none;\n    }\n  }\n  .footer {\n    .row {\n      margin: 0 auto;\n    }\n\n    // .right {\n    //   float: right !important;\n    // }\n    // ul {\n    //   margin: 0;\n    //   text-align: center;\n    // }\n    // li{\n    //   display: inline-block;\n    // }\n    // li:after {\n    //   content: \" - \";\n    // }\n    // li:last-child:after {\n    //   content: \" \";\n    // }\n  }\n\n  .environment, .resources, .faq {\n    ul {\n      height: auto;\n    }\n  }\n\n  .header {\n    h1 {\n      // word-break: break-all;\n      overflow: hidden;\n\n    }\n\n    h2 {\n      display: none;\n    }\n\n    ul {\n      display: none;\n    }\n\n    .carson {\n      margin-top: -98px;\n    }\n\n    img {\n      margin-top: 0;\n      padding-bottom: 30px;\n    }\n  }\n\n  .mid-weather {\n    display: block;\n    text-align: center;\n    padding: 0;\n    margin: 0;\n\n    .head_links {\n      margin: 0;\n      padding: 0;\n\n      li:first-child{\n        list-style-type: none;\n        width: 100%;\n        padding: 0;\n        margin: 0;\n\n        a:link, a:visited{\n          p {\n            padding: 10px;\n            background-color: $temperature;\n            color: #fff !important;\n            font-weight: bold !important;\n            margin: 0;\n          }\n        }\n\n        a:active, a:hover{\n          p {\n            padding: 10px;\n            background-color: darken($temperature, 10%);\n            color: #fff !important;\n            font-weight: bold !important;\n            margin: 0;\n          }\n        }\n      }\n\n      li:nth-child(2){\n        list-style-type: none;\n        padding: 0;\n        margin: 0;\n        background-color: $road;\n\n        iframe {\n          margin: 10px;\n        }\n      }\n\n      li:last-child {\n        list-style-type: none;\n        padding: 0;\n        margin: 0;\n\n        a {\n          padding: 10px;\n        }\n      }\n  }\n  }\n\n  .radar {\n    text-align: center;\n    img {\n      width: 100%;\n    }\n  }\n}\n\n.main-content {\n\n  background-color: #FFF;\n\n  li {\n    margin: 0;\n  }\n\n}\n\n.sidebar { \n  padding: 15px 15px 0 0;\n\n  ul {\n    margin: 0;\n  }\n\n  li {\n    display: block;\n    text-decoration: none;\n    // margin-left: -30px;\n    padding: 5px 0 5px 0;\n  }\n\n  h2 {\n    padding: 0;\n    margin: 0;\n    text-align: center;\n    background: $primary-color;\n    padding: 5px 0 5px 0;\n    color: #fff;\n  }\n\n  div {\n    padding: 0;\n    margin: 0;\n  }\n}\n\n.top-bar {\n  ul {\n    margin: 0 !important;\n  }\n}\n\n.left {\n  padding-left: 0 !important;\n  a {\n    text-decoration: none !important;\n  }\n}\n\n.leaders {\n  img {\n    float: left;\n    margin: 0 15px 10px 0;\n  }\n  h1, h2, h3, h4 {\n    margin: 0 !important;\n  }\n}\n\n\n.details {\n  clear: both;\n}\n\n.orbit-slides-container {\n  img {\n    margin: 0 auto !important;\n    width: 100% !important;\n    height: auto !important;\n    vertical-align: middle !important;\n  }\n}\n\n.facebook {\n  // margin-left: -40px !important;\n  margin-bottom: 10px;\n  background: $medium-gray;\n  padding: 0;\n}\n\n.lte-ie9 .fb-like-box {\n    width: 260px !important;\n}\n\n.environment, .resources, .faq, {\n\n  h2 {\n    margin: 10px 0 0 0;\n    padding: 5px 0 5px 0;\n    background: $primary-color;\n    text-align: center;\n    color: #fff;\n    display: block;  \n  }\n\n  ul {\n    margin: 0;\n    padding: 10px 0 10px 0;\n    background: $medium-gray;\n\n    li {\n      margin: 5px 0 5px 40px;\n    }\n  }\n}\n\n.command {\n\n  h2 {\n    margin-top: ($column-gutter/2);\n    margin-bottom: 0;\n    padding: 5px 0 5px 0;\n    background: $primary-color;\n    text-align: center;\n    color: #fff;\n    display: block;  \n  }\n\n  ul {\n    margin: 0;\n    padding: 10px 0 10px 0;\n    background: $medium-gray;\n\n  }\n}\n\n.community, .social{\n  h2 {\n    margin-top: ($column-gutter/2);\n  }\n}\n\n.community {\n    ul {\n    background: $medium-gray;\n    text-align: center;\n    padding: 10px 0 10px 0;\n  }\n}\n\n.social {\n  margin-top: 10px !important;\n  \n  ul {\n    background: $medium-gray;\n    text-align: center;\n    padding: 10px 0 10px 0;\n  }\n\n  li {\n    display: inline;\n  }\n}\n\n.footer {\n  background: $primary-color;\n  padding: 0;\n  color: #fff !important;\n  margin: 10px 0 0 0;\n\n  ul {\n  }\n\n  li {\n    list-style-type: none;\n    margin: 3px 0 3px 0;\n    padding: 0;\n  }\n\n  a:link, a:visited {\n    color: #fff !important;\n    text-decoration: none;\n  }\n\n  a:hover, a:active {\n    color: $Army-Green !important;\n    text-decoration: none;\n  }\n\n}\n\n.dropdown {\n  padding-left: 0 !important;\n}\n\n.title-area {\n  padding-left: 0 !important\n}\n\n.units {\n  padding: 15px 0 0 0;\n  h1 {\n    margin: 10px 0 10px 0;\n    padding: 5px 0 5px 0;\n    background: $primary-color;\n    text-align: center;\n    color: #fff;\n    display: block;  \n  }\n}\n.weather_table {\n\n  .label {\n    text-align: right;\n    font-weight: bold;\n  }\n\n  .top {\n    text-align: center;\n  }\n\n  table {\n    border-style: solid;\n    border-color: #111;\n  }\n\n  td {\n      padding: 5px;\n    }\n\n}\n\n.TenDay {\n\n  tr:nth-child(odd) {\n    background-color: #ccc;\n  }\n  p {\n    padding: 0;\n    margin: 0;\n  }\n\n}\n\n.pao {\n  background-color: $medium-gray;\n\n  h2 {\n    background-color: $primary-color;\n    text-align: center;\n    color: #fff;\n  }\n\n  p {\n    margin: 10px 10px 0 10px;\n    text-align: justify;\n  }\n}\n\n.pao-links {\n  text-align: center;\n  h2 {\n    background-color: $primary-color;\n    text-align: center;\n    color: #fff;\n    margin-bottom: 0;\n  }\n  ul {\n    margin-top: 0;\n    background-color: $medium-gray;\n    list-style-type: none;\n    padding-left: 0;\n    text-align: left;\n  }\n\n  li {\n    padding: 5px 0 5px 0;\n  }\n}\n\n.pao-address {\n  p {\n    margin: 0 0 0 10px;\n    padding: 0;\n  }\n\n  p:first-child {\n    margin: 10px 0 0 10px;\n  }\n\n  p:last-child {\n    margin:10px;\n  }\n}\n\n.pao-phone {\n  p:first-child {\n    margin-top: 10px;\n  }\n}\n\n.spacing {\n  margin-bottom: 20px !important;\n}\n/* Elastislide Style */\n\n.elastislide-list {\n  list-style-type: none;\n  display: none;\n  max-height: 400px !important;\n\n  li {\n    max-height: 400px !important;\n  }\n\n  p {\n    text-align: center;\n    margin: 2px 0 2px 0;\n    padding: 0;\n  }\n\n  p:last-child {\n    padding-bottom: 5px;\n  }\n\n  a {\n    background-color: $primary-color;\n  }\n\n  a:link, a:visited {\n  color: #fff !important;\n  text-decoration: none;\n  }\n\n  a:hover, a:active {\n    color: $Army-Green !important;\n    text-decoration: none;\n  }\n}\n\n.no-js .top-bar {\n  background: $medium-gray;\n}\n.no-js .elastislide-list {\n  display: block;\n}\n\n.elastislide-carousel ul li {\n  min-width: 20px; /* minimum width of the image (min width + border) */\n}\n\n.elastislide-wrapper {\n  position: relative;\n  background-color: $medium-gray;\n  margin: 0 auto;\n  min-height: 60px;\n  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);\n}\n\n.elastislide-wrapper.elastislide-loading {\n  background-image: url(../img/loading.gif);\n  background-repeat: no-repeat;\n  background-position: center center;\n}\n\n.elastislide-horizontal {\n  padding: 10px 40px;\n}\n\n.elastislide-vertical {\n  padding: 40px 10px;\n}\n\n.elastislide-carousel {\n  overflow: hidden;\n  position: relative;\n}\n\n.elastislide-carousel ul {\n  position: relative;\n  display: block;\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n  -webkit-backface-visibility: hidden;\n  -webkit-transform: translateX(0px);\n  -moz-transform: translateX(0px);\n  -ms-transform: translateX(0px);\n  -o-transform: translateX(0px);\n  transform: translateX(0px);\n}\n\n.elastislide-horizontal ul {\n  white-space: nowrap;\n}\n\n.elastislide-carousel ul li {\n  -webkit-backface-visibility: hidden;\n}\n\n.elastislide-horizontal ul li {\n  height: 100%;\n  display: inline-block;\n}\n\n.elastislide-vertical ul li {\n  display: block;\n}\n\n.elastislide-carousel ul li a {\n  display: inline-block;\n  width: 100%;\n}\n\n.elastislide-carousel ul li a img {\n  display: block;\n  max-width: 100%;\n  padding: 10px;\n}\n\n.elastislide-carousel li {\n  margin-right: ($column-gutter);\n  margin-bottom: ($column-gutter/2);\n  margin-top: ($column-gutter/2);\n}\n/* Navigation Arrows */\n\n.elastislide-wrapper nav span {\n  position: absolute;\n  background: #ddd url(../img/nav.png) no-repeat 4px 3px;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  text-indent: -9000px;\n  cursor: pointer;\n  opacity: 0.8;\n}\n\n.elastislide-wrapper nav span:hover {\n  opacity: 1.0\n}\n\n.elastislide-horizontal nav span {\n  top: 50%;\n  left: 10px;\n  margin-top: -11px;\n}\n\n.elastislide-vertical nav span {\n  top: 10px;\n  left: 50%;\n  margin-left: -11px;\n  background-position: -17px 5px;\n}\n\n.elastislide-horizontal nav span.elastislide-next {\n  right: 10px;\n  left: auto;\n  background-position: 4px -17px;\n}\n\n.elastislide-vertical nav span.elastislide-next {\n  bottom: 10px;\n  top: auto;\n  background-position: -17px -18px;\n}\n\n/* Set media sizes for elastislide */\n\n@media (max-width: $small-screen) {\n  .elastislide-list {\n    p {\n      font-size: .7em;\n    }\n  }\n}",
+			"absolute",
+			"max-height",
+			"NCOES-Instructor-Prerequistes",
+			"strip-map-wlc",
+			"inprocessing-guidance-20130123",
+			"high",
+			"0",
+			"class=\"condition\"",
+			"day_1_pop",
+			"0",
+			"1",
+			"today",
+			"0",
+			"today",
+			"0",
+			"content",
+			"section",
+			"weather",
+			"api",
+			"class",
+			"pao",
+			"jpg",
+			"gif",
+			"crests/",
+			"http://www.carson.army.mil/disclaimer/?external-link=",
+			"locaolhost",
+			"data-orbit",
+			"today",
+			"60",
+			"-30",
+			"today",
+			"reveal",
+			"foundation",
+			"large",
+			"small",
+			"</a>",
+			"4th Infantry Division",
+			"4th Engineer Battalion",
+			"4thENGBTN_Crest.png",
+			"4ID_Crest_Effects.gif",
+			"4thENGBTN_Crest.png",
+			"http://www.carson.army.mil/units/4id/index.html",
+			"small",
+			"media",
+			"grid",
+			"content",
+			"/ACS",
+			"community.carson",
+			"/ACS",
+			"community.carson",
+			"<li><a href=\"\"></a></li>",
+			"/ACS",
+			"community.carson",
+			"url(../img/bar_gradient.png)",
+			"url(includes/img/bar_gradient.png)",
+			"$primary-color",
+			"topbar-link-color",
+			"color",
+			"background",
+			"topbar-arrows",
+			"top-bar-section",
+			"default-float",
+			"topbar-bg",
+			"line-height",
+			"dropdown",
+			"ul li",
+			"has-dropdown",
+			"dropdown",
+			"background",
+			"#",
+			"top",
+			"top-bar",
+			"smile",
+			"topbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"/",
+			"wlc-instructor-prerequisites-20130923",
+			"wlc-strip-map-20130923",
+			"inprocessing-guidance-20130923",
+			"crests/edited/",
+			"",
+			"acs.carson",
+			"",
+			"acs.carson",
+			"",
+			"acs.carson",
+			"url(../img/nav_gradient.png)",
+			"url(../img/bar_gradient.png)",
+			"url(includes/img/bar_gradient.png) repeat-x",
+			"url(includes/img/bar_gradient.png)",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1468,
+								1468
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/david.m.newcomb/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/test",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 88306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/slideshow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22562,
+								22562
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var count = 1;",
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								684
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/rss.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1340
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 239.0,
+						"translation.y": -0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/main.full.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353366,
+								353366
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								204809
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 1637307.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/exit-link.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								714,
+								714
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/includes/js/min/main.full.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64234,
+								64234
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/david.m.newcomb/Documents/sites/carson/weather.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "carson.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

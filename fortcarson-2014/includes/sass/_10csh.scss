@@ -1,0 +1,103 @@
+.tencsh  h1 {
+	margin: 15px 0 35px 0;
+    padding: 5px 0 5px 0;
+    color: #000;
+	font-size: 2em;
+}
+.pretty-links a:link, pretty-links a:visited {
+	font-weight: bold;
+	border-bottom: 2px solid #8F8457;
+	color: #12390A !important;
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	
+	
+}
+
+.pretty-links a:hover, .pretty-links a:focus {
+	background: #F1BD28;
+	border-bottom: 2px solid #8F8457;
+	padding: 1.5px 0;
+	text-decoration: none;
+	color: #000 !important;
+}
+
+.main-content p {
+	line-height:1.5;
+}
+
+.leader-img  img {
+    float:left;
+	padding: 0 15px 15px 0;
+}
+
+.tencsh h2, .tencsh h3, .tencsh h4, .tencsh h5, .tencsh h6, .tencsh h7 {
+	font-size: 1.17em;
+}
+
+.profis li{
+	line-height:1.5;
+	}
+table caption {
+	margin: 20px 0;
+}
+
+.contact-table {
+	width: 80%;
+	margin: 0 auto;
+}
+.tencsh table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.tencsh table td, .nav-secondary li {
+	background-color: #BFBFBF;
+	border: ridge 5px #8D8D8D;
+	color:black;
+	padding: 4px;
+	white-space: no-wrap;	
+}
+.unit-crest {
+	max-width: 25%;
+	float:left;
+	padding: 0 15px 15px 0;
+	
+}
+
+.s3-page {
+	padding-top:170px;
+}
+.connected {
+	border: $border-thin;
+	background:$medium-gray;
+	margin: 10px 0 0 0 !important;
+
+	
+	h1 {
+		background:$primary-color;
+		color:white;
+		line-height:14px;
+		font-size:15px;
+		margin-top:-0.0625em;
+		text-align:center;
+		}
+	img {
+		margin: -20px 0 10px 68px;
+		}
+}
+.bold {
+	font-weight:bold;
+}
+@media only screen and (min-width: 641px){
+.home-img {
+	background-image:url(../../../10cshweb/_assets/img/home-page.jpg);
+	background-repeat:no-repeat;
+	height:370px;
+	background-size:cover;
+	box-shadow:5px 5px 10px 0px rgba(0, 0, 0, 0.62);
+	margin-bottom:40px;
+	
+	}
+}
