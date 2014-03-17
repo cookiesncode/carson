@@ -1,7 +1,7 @@
 /* CSS Document */
 
 .safety-info {
-	padding: 25px 0 0 0;
+	
 }
 
 
@@ -10,27 +10,11 @@
 	
 }
 
-
-.safety-button {
-	@include button ($radius:3px);
-	background: $Light-Gray-bg;
+.safety li {
+	padding-bottom:10px;
 	
 }
 
-.safety-mag img {
-	padding: 15px 0 0 50px;
+.sidebar .safety-sideNav {
+	padding: 15px 0 0 0;
 }
-	
-.safety-mag p {
-	text-align:center;
-	padding: 12px 22px 25px 34px;
-	}
-.one-source {
-	padding:0 0 15px 46px;
-}
-.imcom {
-	padding: 0px 0 0 45px;
-}
-.combat {
-	padding:15px 0 15px 0;
-	}
