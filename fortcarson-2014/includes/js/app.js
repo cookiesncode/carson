@@ -73,12 +73,6 @@ $(document).ready( function () {
 				$link.parents( 'section' ).addClass( 'active' );
 			}
 		});
-
-	$('#links').jflickrfeed({
-		qstrings: '120064813@N04',
-		limit: 20,
-		useTemplate: false
-	});
 		
 // end document.ready function		
 });

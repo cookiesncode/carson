@@ -11,8 +11,7 @@
 <!-- InstanceEndEditable -->
 	<link rel="stylesheet" href="../../fortcarson-2014/includes/css/app.css">
 	<!--[if (lt IE 9) & (!IEMobile)]<script src="../fortcarson-2014/includes/js/Respond-master/respond.min.js"></script><!endif]-->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script> window.jQuery || document.write('<script src="../fortcarson-2014/includes/js/vendor/min/jquery.min.js"><\/script>')</script>
+	<script src="../../fortcarson-2014/includes/js/vendor/min/jquery.min.js"></script>
 	<script src="../../fortcarson-2014/includes/js/min/main.full.min.js"></script>
 	
 	<!-- InstanceBeginEditable name="head" -->
@@ -265,7 +264,7 @@
 						</li>
 						<!-- End Community Services -->
 						<li>
-							<a href="../../Newcomers/directions.html ">Directions to Fort Carson</a>
+							<a href="../../Newcomers/directions.html%20">Directions to Fort Carson</a>
 						</li>
 						<li>
 							<a href="http://www.carson.army.mil/acs/acsprograms.html#erp">Employment Opportunities</a>
@@ -962,7 +961,9 @@
             <ol class="indicator"></ol>
 		</div>
 		<div id="links" class="gallery">
-			<ul id="basicuse">
+			<ul id="ball">
+			</ul>
+			<ul id="alphaco">
 			</ul>
 		</div>
 	<!-- InstanceEndEditable -->
@@ -1047,7 +1048,7 @@
 </script>
 <!-- InstanceBeginEditable name="closingBodyScripts" -->
 <script src="../../fortcarson-2014/includes/js/blueimp-gallery.min.js"></script>
-<script>
+<!--<script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
     var target = event.target || event.srcElement,
@@ -1056,10 +1057,28 @@ document.getElementById('links').onclick = function (event) {
         links = this.getElementsByTagName('a');
     blueimp.Gallery(links, options);
 };
+</script>-->
+<script src="../../fortcarson-2014/includes/js/vendor/jflickrfeed-api.js"></script>
+<script>
+	$(function () {
+		$('#ball').jflickrfeed({
+			qstrings: {
+				id: '120064813@N04',
+				photoset_id: '72157642213569784',
+//				api_key : '28835edb19ca1794992ed28b281be366'
+			},
+			itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+		});
+		$('#alphaco').jflickrfeed({
+			qstrings: {
+				id: '120064813@N04',
+				photoset_id: '72157642212734173',
+				api_key : '28835edb19ca1794992ed28b281be366'
+			},
+			itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+		});
+	});
 </script>
-
-<script src="../../fortcarson-2014/includes/js/vendor/jflickrfeed.js"></script>
-<script src="../_assets/js/223_gal_setup.js"></script>
 
 <!-- InstanceEndEditable -->
 <script src="../../fortcarson-2014/includes/js/jquery.url.js"></script>

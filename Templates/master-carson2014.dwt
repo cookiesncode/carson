@@ -11,8 +11,7 @@
 	<!-- TemplateEndEditable -->
 	<link rel="stylesheet" href="../fortcarson-2014/includes/css/app.css">
 	<!--[if (lt IE 9) & (!IEMobile)]<script src="../fortcarson-2014/includes/js/Respond-master/respond.min.js"></script><!endif]-->
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script> window.jQuery || document.write('<script src="../fortcarson-2014/includes/js/vendor/min/jquery.min.js"><\/script>')</script>
+	<script src="../fortcarson-2014/includes/js/vendor/min/jquery.min.js"></script>
 	<script src="../fortcarson-2014/includes/js/min/main.full.min.js"></script>
 	<!-- TemplateBeginEditable name="head" -->
 	<!-- TemplateEndEditable -->
