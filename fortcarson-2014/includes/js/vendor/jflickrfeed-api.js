@@ -12,7 +12,7 @@
 	$.fn.jflickrfeed = function(settings, callback) {
 		settings = $.extend(true, {		
 			flickrbase: 'http://api.flickr.com/services/rest/',// MOD
-			feedapi: '28835edb19ca1794992ed28b281be366',// MOD
+			feedapi: '',// MOD
 			limit: 50, // MOD
 			qstrings: {
 				method: 'flickr.photosets.getPhotos',
@@ -58,6 +58,7 @@
 						// MOD URL is different for rest api
 						item['image'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '.jpg';
 						item['image_s'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_s.jpg';
+						item['image_q'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_q.jpg';
 						item['image_t'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_t.jpg';
 						item['image_m'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_m.jpg';
 						item['image_b'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_b.jpg';
