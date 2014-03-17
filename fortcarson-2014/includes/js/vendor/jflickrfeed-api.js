@@ -16,6 +16,7 @@
 			limit: 50, // MOD
 			qstrings: {
 				method: 'flickr.photosets.getPhotos',
+				api_key : '28835edb19ca1794992ed28b281be366',
 				lang: 'en-us',
 				format: 'json',
 				jsoncallback: '?'
