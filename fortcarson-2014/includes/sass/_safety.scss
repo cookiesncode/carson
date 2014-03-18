@@ -1,20 +1,20 @@
 /* CSS Document */
 
-.safety-info {
-	
-}
-
-
 .garrison a, .safety-mission a {
 	text-decoration:underline;
+	}
+
+.safety-info {
+	
+	li {
+	padding-bottom:15px;
+	}
+	h2 {
+	margin:40px 0 10px 0;
+	}
 	
 }
 
-.safety li {
-	padding-bottom:10px;
-	
-}
-
-.sidebar .safety-sideNav {
-	padding: 15px 0 0 0;
+.scroller {
+	padding:15px 0 0 17px !important;
 }

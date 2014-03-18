@@ -867,35 +867,11 @@
 		<div class="logo">
 			<img src="../garrison-safety/_assets/images/safety-cest.png" alt=""/>
 		</div>
-		<div class="panel clearfix safety-sideNav">
-        	<ul>
-        		<li><a href="https://safety.army.mil/knowledge_online/march2014/KnowledgeHome/tabid/3657/Default.aspx" target="new">Read the latest issue of the Official Safety Magazine of the U.S. Army, "Knowledge."</a></p></li>
-  				<li><a href="http://www.militaryonesource.mil/MOS/f?p=MOS:HOME:0::::" target="new">Military one Source</a></li>
-                <li><a href="http://www.myarmyonesource.com/default.aspx">My Army one Source</a></li>
-          	  	<li><a href="http://www.imcom.army.mil/" target="new">ICOM</a></li>
-           		<li><a href="https://safety.army.mil" target="new">Army Safety Site</a></li>
-            	<li><a href="http://www.myarmyonesource.com/default.aspx" target="new"></a></li>
-                <li><a href="https://safety.army.mil/statisticsdata/PRELIMINARYLOSSREPORTSPLRs/FY2012PLRs/tabid/2188/Default.aspx">Safety Statistics and reports</a></li>
-             </ul>
-         </div>
-            
-<!-- Example of link with sublinks -->
-<!-- 	
-			<section>
-				<p class="title" data-section-title><a href="#">Section 2</a></p>
-				<div class="content" data-section-content>
-					<p>Content of section 2.</p>
-				</div>
-			</section>
--->		
-			</nav>
+		<div class="scroller">
+     		<iframe src="https://safety.army.mil/plr_scroller_iframe.html" width="260" height="200" scrolling="no" frameborder="0"></iframe>
+     	</div>
             
 	</div>
-    <!--<div class="connected clr-left">
-            	<h1>Stay Connected!</h1>
-   					 <a href="https://www.facebook.com/10CSH"><img src="../fortcarson-2014/includes/img/FB-f-Logo__blue_29.png" alt=""/></a>
-    				<a href="#"><img src="http://l.yimg.com/g/images/goodies/white-flickr.png"/></a>
-    </div>-->
 	<div class="@@(_document['maincontentClass'])@@"><!-- TemplateBeginEditable name="mainContent" -->
 		<h1>Garrison Safety Office</h1>
 		<h2 class="bordered-heading">SubHeading</h2>
