@@ -6229,6 +6229,10 @@ table caption {
   text-decoration: underline;
 }
 
+.garrison h2, .safety-mission h2 {
+  margin: 0 !important;
+}
+
 .safety-info li {
   padding-bottom: 15px;
 }

@@ -3,6 +3,9 @@
 .garrison a, .safety-mission a {
 	text-decoration:underline;
 	}
+.garrison h2, .safety-mission h2 {
+	margin:0 !important;
+}
 
 .safety-info {
 	
@@ -12,9 +15,9 @@
 	h2 {
 	margin:40px 0 10px 0;
 	}
-	
 }
 
 .scroller {
 	padding:15px 0 0 17px !important;
 }
+
