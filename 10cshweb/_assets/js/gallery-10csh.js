@@ -7,7 +7,7 @@ $(function () {
 		},
 		itemTemplate: '<a class="th radius" data-gallery href="{{image_b}}"><img src="{{image_q}}" alt="{{title}}" /></a>'
 	});
-	$('#alphaco').jflickrfeed({
+	$('#alpha-gallery').jflickrfeed({
 		qstrings: {
 			id: '120064813@N04',
 			photoset_id: '72157642212734173'
