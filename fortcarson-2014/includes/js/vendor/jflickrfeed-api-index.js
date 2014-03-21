@@ -1,16 +1,7 @@
-/*
-* Copyright (C) 2009 Joel Sutherland
-* Licenced under the MIT license
-* http://www.newmediacampaigns.com/page/jquery-flickr-plugin
-*
-* Available tags for templates:
-* title, link, date_taken, description, published, author, author_id, tags, image*
-*/
 
-// Miguel's custom mods added. look for "MOD"
 (function($) {
 	$.fn.jflickrfeed = function(settings, callback) {
-		settings = $.extend(true, {		
+		settings = $.extend(true, {
 			flickrbase: 'http://api.flickr.com/services/rest/',// MOD
 			feedapi: '',// MOD
 			limit: 50, // MOD
@@ -18,7 +9,8 @@
 				method: 'flickr.people.getPublicPhotos',
 				api_key : '28835edb19ca1794992ed28b281be366',
 				format: 'json',
-				nojsoncallback: 1
+				nojsoncallback: 0,
+				extras: 'url_z'
 			},
 			cleanDescription: true,
 			useTemplate: true,
@@ -27,6 +19,7 @@
 		}, settings);
 
 		var url = settings.flickrbase + settings.feedapi + '?';
+		
 		var first = true;
 
 		for(var key in settings.qstrings){
@@ -35,13 +28,12 @@
 			url += key + '=' + settings.qstrings[key];
 			first = false;
 		}
-
 		return $(this).each(function(){
-			debugger;
 			var $container = $(this);
 			var container = this;
+
 			$.getJSON(url, function(data){
-				$.each(data.photos.photo, function(i,item){ //MOD
+				$.each(data.items, function(i,item){
 					if(i < settings.limit){
 					
 						// Clean out the Flickr Description
@@ -49,21 +41,21 @@
 							var regex = /<p>(.*?)<\/p>/g;
 							var input = item.description;
 							if(regex.test(input)) {
-								item.description = input.match(regex)[2]
+								item.description = input.match(regex)[2];
 								if(item.description!=undefined)
 									item.description = item.description.replace('<p>','').replace('</p>','');
 							}
 						}
 						
 						// Add Image Sizes
-						// MOD URL is different for rest api
-						item['image'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '.jpg';
-						item['image_s'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_s.jpg';
-						item['image_q'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_q.jpg';
-						item['image_t'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_t.jpg';
-						item['image_m'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_m.jpg';
-						item['image_b'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_b.jpg';
-
+						// http://www.flickr.com/services/api/misc.urls.html
+						item['image_s'] = item.media.m.replace('_m', '_s');
+						item['image_t'] = item.media.m.replace('_m', '_t');
+						item['image_m'] = item.media.m.replace('_m', '_m');
+						item['image'] = item.media.m.replace('_m', '');
+						item['image_b'] = item.media.m.replace('_m', '_b');
+						delete item.media;
+						
 						// Use Template
 						if(settings.useTemplate){
 							var template = settings.itemTemplate;
@@ -71,7 +63,7 @@
 								var rgx = new RegExp('{{' + key + '}}', 'g');
 								template = template.replace(rgx, item[key]);
 							}
-							$container.append(template)
+							$container.append(template);
 						}
 						
 						//itemCallback
@@ -83,5 +75,5 @@
 				}
 			});
 		});
-	}
+	};
 })(jQuery);

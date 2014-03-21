@@ -8,6 +8,7 @@ $(function () {
 	}, function (data) {
 			
 			
+			
 			$(document).foundation('orbit', {
 				animation: 'slide',
 				timer_speed: 5000,
