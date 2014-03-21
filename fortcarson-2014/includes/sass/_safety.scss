@@ -1,36 +1,23 @@
 /* CSS Document */
 
-.safety-info {
-	padding: 25px 0 0 0;
-}
-
-
 .garrison a, .safety-mission a {
 	text-decoration:underline;
-	
-}
-
-
-.safety-button {
-	@include button ($radius:3px);
-	background: $Light-Gray-bg;
-	
-}
-
-.safety-mag img {
-	padding: 15px 0 0 50px;
-}
-	
-.safety-mag p {
-	text-align:center;
-	padding: 12px 22px 25px 34px;
 	}
-.one-source {
-	padding:0 0 15px 46px;
+.garrison h2, .safety-mission h2 {
+	margin:0 !important;
 }
-.imcom {
-	padding: 0px 0 0 45px;
-}
-.combat {
-	padding:15px 0 15px 0;
+
+.safety-info {
+	
+	li {
+	padding-bottom:15px;
 	}
+	h2 {
+	margin:40px 0 10px 0;
+	}
+}
+
+.scroller {
+	padding:15px 0 0 17px !important;
+}
+
