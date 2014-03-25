@@ -29,16 +29,19 @@
 			if (!is_first) {
 
 				url += '&';
-				url += key + '=' + settings.qstrings[key];
-				is_first = false;
 			}
+
+			url += key + '=' + settings.qstrings[key];
+			is_first = false;
 		}
 		return $(this).each(function () {
 
 			var $container = $(this);
 			var container = this;
-			
+
 			$.getJSON('url', function (data) {
+				
+				var data_object = data;
 
 				$.each(data.photoset.photo, function (i, item) {
 
