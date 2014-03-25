@@ -12,7 +12,7 @@
 				method: 'flickr.people.getPublicPhotos',
 				api_key: '28835edb19ca1794992ed28b281be366',
 				format: 'json',
-				nojsoncallback: 0,
+				nojsoncallback: 1,
 				extras: 'url_z'
 			},
 			cleanDescription: true,
@@ -39,11 +39,9 @@
 			var $container = $(this);
 			var container = this;
 
-			$.getJSON('url', function (data) {
+			$.getJSON(url, function (data) {
 				
-				var data_object = data;
-
-				$.each(data.photoset.photo, function (i, item) {
+				$.each(data.photos.photo, function (i, item) {
 
 					if (i < settings.limit) {
 
