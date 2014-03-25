@@ -7,7 +7,7 @@
 
 			flickrbase: 'http://api.flickr.com/services/rest/',
 			feedapi: '',
-			limit: 50,
+			limit: 20,
 			qstrings: {
 				method: 'flickr.people.getPublicPhotos',
 				api_key: '28835edb19ca1794992ed28b281be366',
@@ -43,9 +43,10 @@
 				
 				$.each(data.photos.photo, function (i, item) {
 
-					var size_desired = item.height_z <= item.width_z;
+					var size_desired = item.height_z < item.width_z;
+					var not_blocked = item.farm != 4;
 
-					if (i < settings.limit && size_desired) {
+					if (i < settings.limit && not_blocked && size_desired) {
 
 						if (settings.cleanDescription) {
 
@@ -68,6 +69,7 @@
 						item['image_q'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_q.jpg';
 						item['image_t'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_t.jpg';
 						item['image_m'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_m.jpg';
+						item['image_z'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_z.jpg';
 						item['image_b'] = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_b.jpg';
 
 						//Use template

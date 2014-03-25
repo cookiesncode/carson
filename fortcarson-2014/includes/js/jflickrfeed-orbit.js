@@ -4,7 +4,7 @@ $(function () {
 		qstrings: {
 			user_id: '46810671@N04'
 		},
-		itemTemplate: '<li><img src="{{image}}" alt="{{title}}" /></li>'
+		itemTemplate: '<li><img src="{{image_z}}" alt="{{title}}" /></li>'
 	}, function (data) {
 			
 			
