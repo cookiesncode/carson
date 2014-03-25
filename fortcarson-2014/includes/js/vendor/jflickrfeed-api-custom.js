@@ -43,7 +43,9 @@
 				
 				$.each(data.photos.photo, function (i, item) {
 
-					if (i < settings.limit) {
+					var size_desired = item.height_z <= item.width_z;
+
+					if (i < settings.limit && size_desired) {
 
 						if (settings.cleanDescription) {
 
@@ -82,7 +84,6 @@
 
 						//itemCallback
 						settings.itemCallback.call(container, item);
-						
 					}
 				}); // end .each()
 				
