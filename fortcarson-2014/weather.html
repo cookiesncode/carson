@@ -1,41 +1,25 @@
+<!-- <script src="fortcarson-2014/includes/js/climo.js"></script> -->
 <div class="section-container auto" data-section>
   <section class="active">
-    <p class="title" data-section-title><a href="#panel1">Weather Conditions</a></p>
+    <p class="title" data-section-title><a href="#panel1">Forecast</a></p>
     <div class="content" data-section-content>
-      <table class="weather_table">
-        <tbody id="current">        
-        </tbody>
-      </table>
+      <img src="http://carspublic.carson.army.mil/SWO/Shared%20Documents/7-Day_Forecast-Extended-Outlook.png" />
     </div>
   </section>
   <section>
-    <p class="title" data-section-title><a href="#panel2">10 Day Forecast</a></p>
+    <p class="title" data-section-title><a href="#panel2">BAAF Planning MEF</a></p>
     <div class="content" data-section-content>
-      <div class="row TenDay_redraw">
-        <table class="TenDay" border="0" cellpadding="5">
-          <thead>
-        <tr>
-            <th>Date</th>
-            <th>Condition</th>
-            <th>High</th>
-            <th>Low</th>
-            <th>Chance of Percip</th>
-        </tr>
-    </thead>
-    <tbody id="stuff">        
-    </tbody>
-        </table>
+      <div class="row">
+					<img src="http://carspublic.carson.army.mil/SWO/Shared%20Documents/BAAF-Planning-MEF.png" />
       </div>
     </div>
   </section>
   <section>
-    <p class="title" data-section-title><a href="#panel2">Radar</a></p>
-    <div class="content radar" data-section-content>
-      <img src="http://api.wunderground.com/api/2fe438592973ec9d/animatedradar/q/zip:80913.gif?newmaps=1&timelabel=1&timelabel.y=10&num=5&delay=50"/>
+    <p class="title" data-section-title><a href="#panel2">Climatology</a></p>
+    <div class="content" data-section-content>
+			<div id="climo"></div>
     </div>
   </section>
 </div>
-
-<div style="float: right;">Weather brought to you by <a href="http://www.wunderground.com/?apiref=244cc6b552afe5e5"><img src="includes/img/wundergroundLogo.png" /></a></div>
 
 <a class="close-reveal-modal">&#215;</a>
