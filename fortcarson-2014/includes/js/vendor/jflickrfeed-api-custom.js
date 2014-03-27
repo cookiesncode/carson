@@ -1,10 +1,8 @@
-
+// document.ready
 (function($){
 	
 	$.fn.jflickrfeed = function (settings, callback) {
-
 		settings = $.extend(true, {
-
 			flickrbase: 'http://api.flickr.com/services/rest/',
 			feedapi: '',
 			qstrings: {
@@ -22,17 +20,14 @@
 		var is_first = true;
 		
 		for (var key in settings.qstrings) {
-
 			if (!is_first) {
-
 				url += '&';
 			}
-
 			url += key + '=' + settings.qstrings[key];
 			is_first = false;
 		}
-		return $(this).each(function () {
 
+		return $(this).each(function () {
 			var $container = $(this);
 			var container = this;
 
@@ -50,38 +45,39 @@
 								
 				$.each(photos, function (i, item) {
 					// update blocked_items array depending if IA is blocking flickr subdomains again
-					var blocked_items = [4];
+					var blocked_farms = [4];
+					var image_blocked = false;
 
 					if (i > settings.limit) {
 						return false;
 					}
 
-					if (blocked_items.length >= 1) {
-						$.each(blocked_items, function(index, val) {
+					if (blocked_farms.length >= 1) {
+						$.each(blocked_farms, function(index, val) {
 							if (val === item.farm) {
-								return true;
+								image_blocked = true;
 							}
 						});
+						if (image_blocked) {
+							return true;
+						}
 					}
 
 					// Filter photos for the home page Orbit slider
 					if (home_page) {
-						if (parseInt(item.height_z, 10) > parseInt(item.width_z, 10)) {
+						if (parseInt(item.height_z, 10) >= parseInt(item.width_z, 10)) {
 							return true;
 						}
 					}
 
 					if (settings.cleanDescription) {
-
 						var regex = /<p>(.*?)<\/p>/g;
 						var input = item.description;
 
 						if (regex.test(input)) {
-
 							item.description = input.match(regex)[2];
 
 							if (item.description !== undefined) {
-
 								item.description = item.description.replace('<p>', '').replace('</p>', '');
 							}
 						}
@@ -97,10 +93,9 @@
 
 					//Use template
 					if (settings.useTemplate) {
-
 						var template = settings.itemTemplate;
+						
 						for (var key in item) {
-
 							var rgx = new RegExp('{{' + key + '}}', 'g');
 							template = template.replace(rgx, item[key]);
 						}
@@ -112,7 +107,6 @@
 				}); // end .each()
 				
 				if ($.isFunction(callback)) {
-
 					callback.call(container, data);
 				}
 			}); // end getJSON
