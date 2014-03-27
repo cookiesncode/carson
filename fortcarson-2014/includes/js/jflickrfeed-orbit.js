@@ -1,7 +1,9 @@
 $(function () {
 		
 	$('#featured').jflickrfeed({
+		limit: 20,
 		qstrings: {
+			method: 'flickr.people.getPublicPhotos',
 			user_id: '46810671@N04',
 			extras: 'url_z'
 		},
