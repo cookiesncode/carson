@@ -12,8 +12,7 @@
 				method: 'flickr.people.getPublicPhotos',
 				api_key: '28835edb19ca1794992ed28b281be366',
 				format: 'json',
-				nojsoncallback: 1,
-				extras: 'url_z'
+				jsoncallback: '?'
 			},
 			cleanDescription: true,
 			useTemplate: true,
@@ -40,7 +39,7 @@
 			var container = this;
 
 			$.getJSON(url, function (data) {
-				
+								
 				$.each(data.photos.photo, function (i, item) {
 
 					var size_desired = item.height_z < item.width_z;

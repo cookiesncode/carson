@@ -2,7 +2,8 @@ $(function () {
 		
 	$('#featured').jflickrfeed({
 		qstrings: {
-			user_id: '46810671@N04'
+			user_id: '46810671@N04',
+			extras: 'url_z'
 		},
 		itemTemplate: '<li><img src="{{image_z}}" title="{{title}}" alt="" /></li>'
 	}, function (data) {
