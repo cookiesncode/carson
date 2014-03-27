@@ -947,15 +947,17 @@
 			</section>
 -->		
 			</nav>
-                <div class="connected clr-left">
-            	<h1>Stay Connected!</h1>
-   					 <a onclick="OutsideLinkAlert();window.open(this.href,'_parent');return false;"href="https://www.facebook.com/10CSH"><img src="../fortcarson-2014/includes/img/FB-f-Logo__blue_29.png" alt=""/></a>
-    				<!--<a href="#"><img src="http://l.yimg.com/g/images/goodies/white-flickr.png"/></a>-->
-    </div>
-            
+			<div class="connected clr-left">
+				<h1>Stay Connected!</h1>
+				<a onclick="OutsideLinkAlert();window.open(this.href,'_parent');return false;"href="https://www.facebook.com/10CSH">
+					<img src="../fortcarson-2014/includes/img/FB-f-Logo__blue_29.png" alt=""/>
+				</a>
+				<!--<a href="#"><img src="http://l.yimg.com/g/images/goodies/white-flickr.png"/></a>-->
+			</div>
 	</div>
 
-	<div class="@@(_document['maincontentClass'])@@"><!-- TemplateBeginEditable name="mainContent" -->
+	<div class="@@(_document['maincontentClass'])@@">
+	<!-- TemplateBeginEditable name="mainContent" -->
 		<h1>10th Combat Support Hospital</h1>
 		<h2 class="bordered-heading">SubHeading</h2>
 		<p>DummyParagraph <a href="#">Link</a>.</p>
@@ -1019,8 +1021,8 @@
 <script src="../fortcarson-2014/includes/js/climo.js"></script>
 <script src="../fortcarson-2014/includes/js/jquery.url.js"></script>
 <!-- InstanceBeginEditable name="closingBodyScripts" -->
-<script src="../fortcarson-2014/includes/js/vendor/jflickrfeed-api.js"></script>
-<script src="../10cshweb/_assets/js/gallery-10csh.js"></script>
+<script src="../fortcarson-2014/includes/js/vendor/jflickrfeed-api-custom.js"></script>
+<script src="../10cshweb/_assets/js/flickr-setup.js"></script>
 <script src="../fortcarson-2014/includes/js/blueimp-gallery.min.js"></script>
 <!-- TemplateBeginEditable name="10thcshScripts" --> <!-- TemplateEndEditable -->
 <!-- InstanceEndEditable -->
