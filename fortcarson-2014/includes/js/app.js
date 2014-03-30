@@ -3,20 +3,17 @@ $(document).ready(function () {
 
 // FOUNDATION CALLS ///////////////////////////// 
 	
-	function loadLinks (selector) {
-		$(selector).each(function(index, el) {
-			var $this = $(el);
+	$('[data-reveal-id]').each(function(index, el) {
+		var $this = $(el);
+		var link = $this.attr('href');
+		if (link && link !== '#') {
 			$this.on('click', function(event) {
 				event.preventDefault();
-				var link = $this.attr('href');
 				var id = '#' + $this.attr('data-reveal-id');
 				$(id).load(link);
-			});	
-		});
-	}
-	loadLinks('[data-reveal-id="weather-modal"]');
-	loadLinks('[data-reveal-id="road-con"]');
-	loadLinks('.command a');
+			});
+		}
+	});
 		
   $('#weather-modal').on('opened', function () {
 	$(this).foundation('section', 'reflow');
