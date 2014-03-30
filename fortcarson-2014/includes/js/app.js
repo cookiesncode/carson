@@ -2,18 +2,6 @@
 $(document).ready(function () {
 
 // FOUNDATION CALLS ///////////////////////////// 
-	
-	$('[data-reveal-id]').each(function(index, el) {
-		var $this = $(el);
-		var link = $this.attr('href');
-		if (link && link !== '#') {
-			$this.on('click', function(event) {
-				event.preventDefault();
-				var id = '#' + $this.attr('data-reveal-id');
-				$(id).load(link);
-			});
-		}
-	});
 		
   $('#weather-modal').on('opened', function () {
 	$(this).foundation('section', 'reflow');
