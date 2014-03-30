@@ -4,20 +4,19 @@ $(document).ready(function () {
 // FOUNDATION CALLS ///////////////////////////// 
 	
 	function loadLinks (selector) {
-		var $selector = $(selector);
-
-		$selector.each(function(index, el) {
-			$(el).on('click', function(event) {
+		$(selector).each(function(index, el) {
+			var $this = $(el);
+			$this.on('click', function(event) {
 				event.preventDefault();
-				var $this = $(this);
 				var link = $this.attr('href');
 				var id = '#' + $this.attr('data-reveal-id');
-
 				$(id).load(link);
 			});	
 		});
 	}
-	loadLinks('.command a, [data-reveal-id="road-con"], [data-reveal-id="weather-modal"]');
+	loadLinks('[data-reveal-id="weather-modal"]');
+	loadLinks('[data-reveal-id="road-con"]');
+	loadLinks('.command a');
 		
   $('#weather-modal').on('opened', function () {
 	$(this).foundation('section', 'reflow');
