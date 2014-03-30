@@ -1,22 +1,26 @@
+
 $(document).ready(function () {
 
 // FOUNDATION CALLS ///////////////////////////// 
+	
+	function loadLinks (selector) {
+		var $selector = $(selector);
 
-	$("#dir-sup").load("../fortcarson-2014/leaders/dir-sup.html");
-	$("#dep-gar").load("../fortcarson-2014/leaders/dep-gar.html");
-	$("#gar-csm").load("../fortcarson-2014/leaders/gar-csm.html");
-	$("#gar-cdr").load("../fortcarson-2014/leaders/gar-cdr.html");
-	$("#sup-cdr").load("../fortcarson-2014/leaders/sup-cdr.html");
-	$("#man-cdr").load("../fortcarson-2014/leaders/man-cdr.html");
-	$("#snr-cdr").load("../fortcarson-2014/leaders/snr-cdr.html");
-	$("#4id-csm").load("../fortcarson-2014/leaders/4id-csm.html");
-	$("#4id-cdr").load("../fortcarson-2014/leaders/4id-cdr.html");		
-	
-	$("#road-con").load("../fortcarson-2014/reporting.html");
-	$("#weather-modal").load("../fortcarson-2014/weather.html");
-	
+		$selector.each(function(index, el) {
+			$(el).on('click', function(event) {
+				event.preventDefault();
+				var $this = $(this);
+				var link = $this.attr('href');
+				var id = '#' + $this.attr('data-reveal-id');
+
+				$(id).load(link);
+			});	
+		});
+	}
+	loadLinks('.command a, [data-reveal-id="road-con"], [data-reveal-id="weather-modal"]');
+		
   $('#weather-modal').on('opened', function () {
-    $(this).foundation('section', 'reflow');
+	$(this).foundation('section', 'reflow');
   });
 	
 	
