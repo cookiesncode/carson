@@ -10,6 +10,7 @@
 <title>Fort Carson | 10th CSH Bravo</title>
 <!-- InstanceEndEditable -->
 	<link rel="stylesheet" href="../../fortcarson-2014/includes/css/app.css">
+	<script src="../../fortcarson-2014/includes/js/modernizr.js"></script>
 	<!--[if (lt IE 9) & (!IEMobile)]<script src="../fortcarson-2014/includes/js/Respond-master/respond.min.js"></script><!endif]-->
 	
 	<!-- InstanceBeginEditable name="head" -->
@@ -57,14 +58,14 @@
 	<div class="large-2 columns contents">
 		<ul class="side-nav navi">
 			<li>
-				<a href="#" data-reveal-id="road-con">
+				<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 				<p id="roads" style="padding: 0;"></p>
 				</a>
 			</li>
 			<li class="divider">
 			</li>
 			<li>
-				<a href="#" data-reveal-id="road-con">
+				<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 				<p id="report" style="padding: 0;"></p>
 				</a>
 			</li>
@@ -75,12 +76,12 @@
 <div class="row mid-weather">
 	<ul class="head_links">
 		<li>
-			<a href="#" data-reveal-id="road-con">
+			<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 			<p id="mid-roads" style="padding: 0; margin:0;"></p>
 			</a>
 		</li>
 		<li>
-			<a href="#" data-reveal-id="road-con">
+			<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 			<p id="mid-report" style="padding: 0; margin:0;"></p>
 			</a>
 		</li>
@@ -847,7 +848,7 @@
 				</li>
 				<li class="divider">
 				<li>
-					<a href="#" data-reveal-id="weather-modal" id="weather">Weather</a>
+					<a href="fortcarson-2014/weather.html" data-reveal-ajax="true" data-reveal-id="weather-modal" id="weather">Weather</a>
 				</li>
 				<li class="divider">
 				</li>
@@ -949,7 +950,7 @@
 			</nav>
 			<div class="connected clr-left">
 				<h1>Stay Connected!</h1>
-				<a onclick="OutsideLinkAlert();window.open(this.href,'_parent');return false;"href="https://www.facebook.com/10CSH">
+				<a href="https://www.facebook.com/10CSH" rel="external">
 					<img src="../../fortcarson-2014/includes/img/FB-f-Logo__blue_29.png" alt=""/>
 				</a>
 				<!--<a href="#"><img src="http://l.yimg.com/g/images/goodies/white-flickr.png"/></a>-->
@@ -1029,20 +1030,16 @@
 <div id="weather-modal" class="reveal-modal"></div>
 <div id="road-con" class="reveal-modal"></div>
 <div id="disclaimer" class="reveal-modal"></div>
+<a id="disclaimer-link" href="/fortcarson-2014/disclaimer.html" style="display: none" data-reveal-ajax="true" data-reveal-id="disclaimer"></a>
 
-<script src="../../fortcarson-2014/includes/js/vendor/min/jquery.min.js"></script>
-<script src="../../fortcarson-2014/includes/js/min/main.full.min.js"></script>
-<script>$(document).foundation('reveal topbar section');</script>
-<script src="../../fortcarson-2014/includes/js/slideshow.js"></script>
-<script src="../../fortcarson-2014/includes/js/climo.js"></script>
-<script src="../../fortcarson-2014/includes/js/jquery.url.js"></script>
+<!--<script src="../fortcarson-2014/includes/js/min/jquery.min.js"></script>-->
+<script src="../../fortcarson-2014/includes/js/min/app.min.js"></script>
 
-<script src="../../fortcarson-2014/includes/js/vendor/jflickrfeed-api-custom.js"></script>
+
 <script src="../_assets/js/flickr-setup.js"></script>
 <script src="../../fortcarson-2014/includes/js/blueimp-gallery.min.js"></script>
 <!-- InstanceBeginEditable name="10thcshScripts" --> <!-- InstanceEndEditable -->
 
-<script src="../../fortcarson-2014/includes/js/app.js"></script>
 <script type="text/javascript">
 var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-17137850-3']);
