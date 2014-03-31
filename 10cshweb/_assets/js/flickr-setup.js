@@ -1,3 +1,5 @@
+//@prepros-append ./fortcarson-2014/includes/js/plugins/blueimp-gallery.min.js
+
 $(function () {
 	var $loadtext = $('<p id="load-text">Loading images from Flickr...</p>');
 	var flickr_id = '120064813@N04';

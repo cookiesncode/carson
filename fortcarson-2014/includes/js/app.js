@@ -1,4 +1,4 @@
-//@prepros-prepend plugins/slideshow.js
+//@prepros-prepend plugins/jquery.cycle.js
 //@prepros-prepend plugins/jquery.fittext.js
 //@prepros-prepend plugins/jquery.elastislide.js
 //@prepros-prepend plugins/jquerypp.custom.js
