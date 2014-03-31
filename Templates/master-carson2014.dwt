@@ -55,14 +55,14 @@
 	<div class="large-2 columns contents">
 		<ul class="side-nav navi">
 			<li>
-				<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
+				<a href="../fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 				<p id="roads" style="padding: 0;"></p>
 				</a>
 			</li>
 			<li class="divider">
 			</li>
 			<li>
-				<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
+				<a href="../fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 				<p id="report" style="padding: 0;"></p>
 				</a>
 			</li>
@@ -73,12 +73,12 @@
 <div class="row mid-weather">
 	<ul class="head_links">
 		<li>
-			<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
+			<a href="../fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 			<p id="mid-roads" style="padding: 0; margin:0;"></p>
 			</a>
 		</li>
 		<li>
-			<a href="fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
+			<a href="../fortcarson-2014/reporting.html" data-reveal-ajax="true" data-reveal-id="road-con">
 			<p id="mid-report" style="padding: 0; margin:0;"></p>
 			</a>
 		</li>
@@ -845,7 +845,7 @@
 				</li>
 				<li class="divider">
 				<li>
-					<a href="fortcarson-2014/weather.html" data-reveal-ajax="true" data-reveal-id="weather-modal" id="weather">Weather</a>
+					<a href="../fortcarson-2014/weather.html" data-reveal-ajax="true" data-reveal-id="weather-modal" id="weather">Weather</a>
 				</li>
 				<li class="divider">
 				</li>
