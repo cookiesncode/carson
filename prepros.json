@@ -475,6 +475,70 @@
       "parents": [
         "99535805"
       ]
+    },
+    "042dd039": {
+      "id": "042dd039",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\plugins\\jquery.cycle.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "6ca92b54": {
+      "id": "6ca92b54",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\plugins\\jquery.fittext.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "a5bcd9db": {
+      "id": "a5bcd9db",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\plugins\\jquery.elastislide.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "41d8d012": {
+      "id": "41d8d012",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\plugins\\jquerypp.custom.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "0398b90c": {
+      "id": "0398b90c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\plugins\\jflickrfeed-api-custom.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "8f5aebb8": {
+      "id": "8f5aebb8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\plugins\\jquery.url.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "a6ab1ace": {
+      "id": "a6ab1ace",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\min\\foundation.min.js",
+      "parents": [
+        "c5063d4a"
+      ]
+    },
+    "1bf020eb": {
+      "id": "1bf020eb",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\min\\jquery.min.js",
+      "parents": [
+        "c5063d4a"
+      ]
     }
   },
   "images": {
