@@ -30,3 +30,5 @@ _poc/
 _notes/
 *.lck
 *.css
+app.min.js
+_notes
