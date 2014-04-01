@@ -19,9 +19,9 @@ $(document).ready(function () {
 	$("#fittext").fitText(1.5, { minFontSize: '18px', maxFontSize: '30px'});
 	
 // DISCLAIMER MODAL ///////////////////////////// 
-	if ($.cookie('disclaimer') && $.cookie('disclaimer') !== 'checked' ) {
+	if ($.cookie('disclaimer') !== 'checked') {
 		$('#disclaimer-link').trigger('click');
-		$.cookie('disclaimer', 'checked', { expires: 1 });
+		$.cookie('disclaimer', 'checked', { expires: 1, path: '/' });
 	}
 
 // HOMEPAGE FLICKR ORBIT ///////////////////////////// 
