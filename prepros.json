@@ -1,0 +1,2965 @@
+{
+  "id": "f2cdfa91",
+  "cfgVersion": 1,
+  "name": "carson",
+  "files": {
+    "99535805": {
+      "id": "99535805",
+      "pid": "f2cdfa91",
+      "name": "app.scss",
+      "input": "fortcarson-2014\\includes\\sass\\app.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": false
+      }
+    },
+    "6120974d": {
+      "id": "6120974d",
+      "pid": "f2cdfa91",
+      "name": "flickr-setup.js",
+      "input": "10cshweb\\_assets\\js\\flickr-setup.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c5063d4a": {
+      "id": "c5063d4a",
+      "pid": "f2cdfa91",
+      "name": "app.js",
+      "input": "fortcarson-2014\\includes\\js\\app.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": false,
+        "mangle": false,
+        "sourcemaps": false
+      }
+    }
+  },
+  "imports": {
+    "9fad3f3d": {
+      "id": "9fad3f3d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_settings.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "53a411ab": {
+      "id": "53a411ab",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_normalize.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "7435f14d": {
+      "id": "7435f14d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_global.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "8df96190": {
+      "id": "8df96190",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_grid.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "adb29fc8": {
+      "id": "adb29fc8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_grid-5.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "b04060c2": {
+      "id": "b04060c2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_visibility.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "b5371d42": {
+      "id": "b5371d42",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_block-grid.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "ed80abdb": {
+      "id": "ed80abdb",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_type.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "728a56df": {
+      "id": "728a56df",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_buttons.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "f422d178": {
+      "id": "f422d178",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_forms.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "3e6ec8cf": {
+      "id": "3e6ec8cf",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_custom-forms.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "0a61c663": {
+      "id": "0a61c663",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_button-groups.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "5931a328": {
+      "id": "5931a328",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_dropdown-buttons.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "e247d420": {
+      "id": "e247d420",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_split-buttons.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "77779a58": {
+      "id": "77779a58",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_flex-video.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "e8ecf03a": {
+      "id": "e8ecf03a",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_section.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "1250365a": {
+      "id": "1250365a",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_top-bar.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "26a462ee": {
+      "id": "26a462ee",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_orbit.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "97d8ae74": {
+      "id": "97d8ae74",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_reveal.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "d5697e89": {
+      "id": "d5697e89",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_joyride.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "23f1b86c": {
+      "id": "23f1b86c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_clearing.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "5ed2a6c4": {
+      "id": "5ed2a6c4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_alert-boxes.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "916e6c2e": {
+      "id": "916e6c2e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_breadcrumbs.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "23515c57": {
+      "id": "23515c57",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_keystrokes.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "1586b5dc": {
+      "id": "1586b5dc",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_labels.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "441266c5": {
+      "id": "441266c5",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_inline-lists.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "53c84bac": {
+      "id": "53c84bac",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_pagination.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "713e4a5b": {
+      "id": "713e4a5b",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_panels.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "286562a9": {
+      "id": "286562a9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_pricing-tables.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "74413bc1": {
+      "id": "74413bc1",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_progress-bars.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "891635bb": {
+      "id": "891635bb",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_side-nav.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "c16d1be2": {
+      "id": "c16d1be2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_sub-nav.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "cbf0af90": {
+      "id": "cbf0af90",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_switch.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "175651dd": {
+      "id": "175651dd",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_magellan.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "6941e796": {
+      "id": "6941e796",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_tables.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "ece6f091": {
+      "id": "ece6f091",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_thumbs.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "4e92d3c7": {
+      "id": "4e92d3c7",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_tooltips.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "02951458": {
+      "id": "02951458",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\foundation\\components\\_dropdown.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "7486b8f5": {
+      "id": "7486b8f5",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_ie8.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "83b84b04": {
+      "id": "83b84b04",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_custom.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "1554e7ee": {
+      "id": "1554e7ee",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_header.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "662482d3": {
+      "id": "662482d3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_index.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "946920b3": {
+      "id": "946920b3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_sidebar.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "04515765": {
+      "id": "04515765",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_10csh.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "91039fff": {
+      "id": "91039fff",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_fcrg.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "5de99079": {
+      "id": "5de99079",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_pao.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "db65cc02": {
+      "id": "db65cc02",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_nec.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "a7653a54": {
+      "id": "a7653a54",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_gallery.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "8752857b": {
+      "id": "8752857b",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_museum.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "7d51c688": {
+      "id": "7d51c688",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_safety.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "c8b3cd71": {
+      "id": "c8b3cd71",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_test-david.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "8b9a532f": {
+      "id": "8b9a532f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_test-miguel.scss",
+      "parents": [
+        "99535805"
+      ]
+    },
+    "d0433442": {
+      "id": "d0433442",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\sass\\_test-zufelt.scss",
+      "parents": [
+        "99535805"
+      ]
+    }
+  },
+  "images": {
+    "35212616": {
+      "id": "35212616",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\PublicAffairsCrest.jpg",
+      "size": 11321,
+      "name": "PublicAffairsCrest.jpg",
+      "type": "Jpg",
+      "initialSize": 11321,
+      "status": "NOT_OPTIMIZED"
+    },
+    "95841191": {
+      "id": "95841191",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\leaders\\csm-tyson.png",
+      "size": 424767,
+      "name": "csm-tyson.png",
+      "type": "Png",
+      "initialSize": 424767,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6cc9e074": {
+      "id": "6cc9e074",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\a_combat_service_id_badge_1_st_medical_brigade_81077_427.jpg",
+      "size": 11239,
+      "name": "a_combat_service_id_badge_1_st_medical_brigade_81077_427.jpg",
+      "type": "Jpg",
+      "initialSize": 11239,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4f30b104": {
+      "id": "4f30b104",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\chaplain.png",
+      "size": 100555,
+      "name": "chaplain.png",
+      "type": "Png",
+      "initialSize": 100555,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3343a602": {
+      "id": "3343a602",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\combat-service-badge.png",
+      "size": 187027,
+      "name": "combat-service-badge.png",
+      "type": "Png",
+      "initialSize": 187027,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c8fec4fc": {
+      "id": "c8fec4fc",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\10th-csh-dui.png",
+      "size": 142376,
+      "name": "10th-csh-dui.png",
+      "type": "Png",
+      "initialSize": 142376,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2e8fecca": {
+      "id": "2e8fecca",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-221st.png",
+      "size": 160163,
+      "name": "crest-221st.png",
+      "type": "Png",
+      "initialSize": 160163,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c25b014e": {
+      "id": "c25b014e",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-223rd.png",
+      "size": 230020,
+      "name": "crest-223rd.png",
+      "type": "Png",
+      "initialSize": 230020,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0b2fdd9b": {
+      "id": "0b2fdd9b",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-2fst.png",
+      "size": 107707,
+      "name": "crest-2fst.png",
+      "type": "Png",
+      "initialSize": 107707,
+      "status": "NOT_OPTIMIZED"
+    },
+    "604d5f8a": {
+      "id": "604d5f8a",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-438.png",
+      "size": 440021,
+      "name": "crest-438.png",
+      "type": "Png",
+      "initialSize": 440021,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f4550575": {
+      "id": "f4550575",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-alpha.jpg",
+      "size": 39372,
+      "name": "crest-alpha.jpg",
+      "type": "Jpg",
+      "initialSize": 39372,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f7b20771": {
+      "id": "f7b20771",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-alpha.png",
+      "size": 38208,
+      "name": "crest-alpha.png",
+      "type": "Png",
+      "initialSize": 38208,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a017a448": {
+      "id": "a017a448",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-bravo.png",
+      "size": 301101,
+      "name": "crest-bravo.png",
+      "type": "Png",
+      "initialSize": 301101,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ac19526c": {
+      "id": "ac19526c",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\crests\\crest-hhd.png",
+      "size": 327433,
+      "name": "crest-hhd.png",
+      "type": "Png",
+      "initialSize": 327433,
+      "status": "NOT_OPTIMIZED"
+    },
+    "629e05c9": {
+      "id": "629e05c9",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\eo.png",
+      "size": 21187,
+      "name": "eo.png",
+      "type": "Png",
+      "initialSize": 21187,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b7b416a0": {
+      "id": "b7b416a0",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\frg.png",
+      "size": 45408,
+      "name": "frg.png",
+      "type": "Png",
+      "initialSize": 45408,
+      "status": "NOT_OPTIMIZED"
+    },
+    "74a6dfbe": {
+      "id": "74a6dfbe",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\home-page.jpg",
+      "size": 322948,
+      "name": "home-page.jpg",
+      "type": "Jpg",
+      "initialSize": 322948,
+      "status": "NOT_OPTIMIZED"
+    },
+    "897b0fe2": {
+      "id": "897b0fe2",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\home-page.png",
+      "size": 2839718,
+      "name": "home-page.png",
+      "type": "Png",
+      "initialSize": 2839718,
+      "status": "NOT_OPTIMIZED"
+    },
+    "47aaf37b": {
+      "id": "47aaf37b",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\leaders\\andrews.jpg",
+      "size": 52223,
+      "name": "andrews.jpg",
+      "type": "Jpg",
+      "initialSize": 52223,
+      "status": "NOT_OPTIMIZED"
+    },
+    "420288a5": {
+      "id": "420288a5",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\retention.png",
+      "size": 103138,
+      "name": "retention.png",
+      "type": "Png",
+      "initialSize": 103138,
+      "status": "NOT_OPTIMIZED"
+    },
+    "11aef555": {
+      "id": "11aef555",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\s6.png",
+      "size": 14961,
+      "name": "s6.png",
+      "type": "Png",
+      "initialSize": 14961,
+      "status": "NOT_OPTIMIZED"
+    },
+    "483d9511": {
+      "id": "483d9511",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\safety.png",
+      "size": 11996,
+      "name": "safety.png",
+      "type": "Png",
+      "initialSize": 11996,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5a28b1bd": {
+      "id": "5a28b1bd",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\sharp.png",
+      "size": 1148363,
+      "name": "sharp.png",
+      "type": "Png",
+      "initialSize": 1148363,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8c2be88a": {
+      "id": "8c2be88a",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\unit-photos\\company-photos\\221st-unit-pic.jpg",
+      "size": 253580,
+      "name": "221st-unit-pic.jpg",
+      "type": "Jpg",
+      "initialSize": 253580,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e375897d": {
+      "id": "e375897d",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\unit-photos\\company-photos\\223rd-unit-pic.jpg",
+      "size": 457785,
+      "name": "223rd-unit-pic.jpg",
+      "type": "Jpg",
+      "initialSize": 457785,
+      "status": "NOT_OPTIMIZED"
+    },
+    "881fa79e": {
+      "id": "881fa79e",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\unit-photos\\company-photos\\2nd-fst.jpg",
+      "size": 43993,
+      "name": "2nd-fst.jpg",
+      "type": "Jpg",
+      "initialSize": 43993,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5fcf7745": {
+      "id": "5fcf7745",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\unit-photos\\company-photos\\438.jpg",
+      "size": 70868,
+      "name": "438.jpg",
+      "type": "Jpg",
+      "initialSize": 70868,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f7b46097": {
+      "id": "f7b46097",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\unit-photos\\company-photos\\bravo-featured.png",
+      "size": 422332,
+      "name": "bravo-featured.png",
+      "type": "Png",
+      "initialSize": 422332,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a3992ed5": {
+      "id": "a3992ed5",
+      "pid": "f2cdfa91",
+      "path": "10cshweb\\_assets\\img\\unit-photos\\company-photos\\hhd-alpha.jpg",
+      "size": 80190,
+      "name": "hhd-alpha.jpg",
+      "type": "Jpg",
+      "initialSize": 80190,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ad30edfa": {
+      "id": "ad30edfa",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\1bct\\cdr-large.jpg",
+      "size": 18939,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 18939,
+      "status": "NOT_OPTIMIZED"
+    },
+    "880b88bf": {
+      "id": "880b88bf",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\1bct\\cdr.jpg",
+      "size": 8156,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 8156,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9f382162": {
+      "id": "9f382162",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\1bct\\csm-large.jpg",
+      "size": 23597,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 23597,
+      "status": "NOT_OPTIMIZED"
+    },
+    "194906d1": {
+      "id": "194906d1",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\1bct\\csm.jpg",
+      "size": 10459,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 10459,
+      "status": "NOT_OPTIMIZED"
+    },
+    "67a72d69": {
+      "id": "67a72d69",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\214fb\\cdr-large.jpg",
+      "size": 16802,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 16802,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d7044227": {
+      "id": "d7044227",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\214fb\\cdr.jpg",
+      "size": 7406,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 7406,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5e53947d": {
+      "id": "5e53947d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\214fb\\csm-large.jpg",
+      "size": 18974,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 18974,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b8429651": {
+      "id": "b8429651",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\214fb\\csm.jpg",
+      "size": 8338,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 8338,
+      "status": "NOT_OPTIMIZED"
+    },
+    "350016d2": {
+      "id": "350016d2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\2bct\\cdr-large.jpg",
+      "size": 24028,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 24028,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6a1549e2": {
+      "id": "6a1549e2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\2bct\\cdr.jpg",
+      "size": 10162,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 10162,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5a304bb1": {
+      "id": "5a304bb1",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\2bct\\csm-large.jpg",
+      "size": 23645,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 23645,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ee81f01d": {
+      "id": "ee81f01d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\2bct\\csm.jpg",
+      "size": 9946,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 9946,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2fab2fd7": {
+      "id": "2fab2fd7",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\3bct\\cdr-large.jpg",
+      "size": 14272,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 14272,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7a542170": {
+      "id": "7a542170",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\3bct\\cdr.jpg",
+      "size": 6007,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 6007,
+      "status": "NOT_OPTIMIZED"
+    },
+    "871f273c": {
+      "id": "871f273c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\3bct\\csm-large.jpg",
+      "size": 19793,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 19793,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a1878439": {
+      "id": "a1878439",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\3bct\\csm.jpg",
+      "size": 8299,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 8299,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9ea0b33f": {
+      "id": "9ea0b33f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\43sb\\cdr-large.jpg",
+      "size": 14619,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 14619,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f1bb2eb9": {
+      "id": "f1bb2eb9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\43sb\\cdr.jpg",
+      "size": 7208,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 7208,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c8adc40b": {
+      "id": "c8adc40b",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\43sb\\csm-large.jpg",
+      "size": 9738,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 9738,
+      "status": "NOT_OPTIMIZED"
+    },
+    "71eeb7c7": {
+      "id": "71eeb7c7",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\43sb\\csm.jpg",
+      "size": 3804,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 3804,
+      "status": "NOT_OPTIMIZED"
+    },
+    "41d2f270": {
+      "id": "41d2f270",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\4bct\\cdr-large.jpg",
+      "size": 21261,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 21261,
+      "status": "NOT_OPTIMIZED"
+    },
+    "456dc3b2": {
+      "id": "456dc3b2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\4bct\\cdr.jpg",
+      "size": 8653,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 8653,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8cc8ec33": {
+      "id": "8cc8ec33",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\4bct\\csm-large.jpg",
+      "size": 16182,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 16182,
+      "status": "NOT_OPTIMIZED"
+    },
+    "15a6a617": {
+      "id": "15a6a617",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\4bct\\csm.jpg",
+      "size": 6474,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 6474,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5681e70c": {
+      "id": "5681e70c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cab\\cdr-large.jpg",
+      "size": 15264,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 15264,
+      "status": "NOT_OPTIMIZED"
+    },
+    "84cd73ce": {
+      "id": "84cd73ce",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cab\\cdr.jpg",
+      "size": 6555,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 6555,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c3ad9473": {
+      "id": "c3ad9473",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cab\\csm-large.jpg",
+      "size": 15778,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 15778,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6e32510f": {
+      "id": "6e32510f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cab\\csm.jpg",
+      "size": 6738,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 6738,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3fa8aa67": {
+      "id": "3fa8aa67",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\cdr-large.jpg",
+      "size": 15086,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 15086,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6053531d": {
+      "id": "6053531d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\cdr.jpg",
+      "size": 6346,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 6346,
+      "status": "NOT_OPTIMIZED"
+    },
+    "afa3fb53": {
+      "id": "afa3fb53",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\cos-large.jpg",
+      "size": 19480,
+      "name": "cos-large.jpg",
+      "type": "Jpg",
+      "initialSize": 19480,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a1a94a6d": {
+      "id": "a1a94a6d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\cos.jpg",
+      "size": 8281,
+      "name": "cos.jpg",
+      "type": "Jpg",
+      "initialSize": 8281,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9dbf522d": {
+      "id": "9dbf522d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\csm-large.jpg",
+      "size": 21722,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 21722,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c8d6e799": {
+      "id": "c8d6e799",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\csm.jpg",
+      "size": 8876,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 8876,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8b81ce11": {
+      "id": "8b81ce11",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\dcgm-large.jpg",
+      "size": 15465,
+      "name": "dcgm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 15465,
+      "status": "NOT_OPTIMIZED"
+    },
+    "65a2c586": {
+      "id": "65a2c586",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\dcgm.jpg",
+      "size": 6641,
+      "name": "dcgm.jpg",
+      "type": "Jpg",
+      "initialSize": 6641,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4982fef8": {
+      "id": "4982fef8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\dcgs-large.jpg",
+      "size": 17169,
+      "name": "dcgs-large.jpg",
+      "type": "Jpg",
+      "initialSize": 17169,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f7550bf9": {
+      "id": "f7550bf9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\dcgs.jpg",
+      "size": 7055,
+      "name": "dcgs.jpg",
+      "type": "Jpg",
+      "initialSize": 7055,
+      "status": "NOT_OPTIMIZED"
+    },
+    "86c4a048": {
+      "id": "86c4a048",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\senior-mission-cdr-large.jpg",
+      "size": 16847,
+      "name": "senior-mission-cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 16847,
+      "status": "NOT_OPTIMIZED"
+    },
+    "51e740c2": {
+      "id": "51e740c2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\senior-mission-cdr.jpg",
+      "size": 6763,
+      "name": "senior-mission-cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 6763,
+      "status": "NOT_OPTIMIZED"
+    },
+    "862482e4": {
+      "id": "862482e4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\vacant-large.jpg",
+      "size": 5353,
+      "name": "vacant-large.jpg",
+      "type": "Jpg",
+      "initialSize": 5353,
+      "status": "NOT_OPTIMIZED"
+    },
+    "20ba264a": {
+      "id": "20ba264a",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\cmd\\vacant.jpg",
+      "size": 2395,
+      "name": "vacant.jpg",
+      "type": "Jpg",
+      "initialSize": 2395,
+      "status": "NOT_OPTIMIZED"
+    },
+    "87a485d3": {
+      "id": "87a485d3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\hhbn\\cdr-large.jpg",
+      "size": 18418,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 18418,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bffe4555": {
+      "id": "bffe4555",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\hhbn\\cdr.jpg",
+      "size": 8013,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 8013,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fca5e1ab": {
+      "id": "fca5e1ab",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\hhbn\\csm-large.jpg",
+      "size": 13116,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 13116,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5d0dc5b8": {
+      "id": "5d0dc5b8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\4id\\leaders\\hhbn\\csm.jpg",
+      "size": 6206,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 6206,
+      "status": "NOT_OPTIMIZED"
+    },
+    "159181ed": {
+      "id": "159181ed",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\army-star.png",
+      "size": 7241,
+      "name": "army-star.png",
+      "type": "Png",
+      "initialSize": 7241,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1f299622": {
+      "id": "1f299622",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\bg.jpg",
+      "size": 4803,
+      "name": "bg.jpg",
+      "type": "Jpg",
+      "initialSize": 4803,
+      "status": "NOT_OPTIMIZED"
+    },
+    "490c7b61": {
+      "id": "490c7b61",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\calendar.jpg",
+      "size": 10139,
+      "name": "calendar.jpg",
+      "type": "Jpg",
+      "initialSize": 10139,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b95f632d": {
+      "id": "b95f632d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\1-10CAV_2-4Crest.png",
+      "size": 5113,
+      "name": "1-10CAV_2-4Crest.png",
+      "type": "Png",
+      "initialSize": 5113,
+      "status": "NOT_OPTIMIZED"
+    },
+    "95eff2ed": {
+      "id": "95eff2ed",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\1-12BN_4BCTCrest.png",
+      "size": 5937,
+      "name": "1-12BN_4BCTCrest.png",
+      "type": "Png",
+      "initialSize": 5937,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c225c731": {
+      "id": "c225c731",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\1-4Crest.png",
+      "size": 6980,
+      "name": "1-4Crest.png",
+      "type": "Png",
+      "initialSize": 6980,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f170c86d": {
+      "id": "f170c86d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\1-67_2-4Crest.png",
+      "size": 5915,
+      "name": "1-67_2-4Crest.png",
+      "type": "Png",
+      "initialSize": 5915,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ab52d150": {
+      "id": "ab52d150",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\10th-csh-dui.png",
+      "size": 142376,
+      "name": "10th-csh-dui.png",
+      "type": "Png",
+      "initialSize": 142376,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0fd98b08": {
+      "id": "0fd98b08",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\13thASOS_CrestJulieEffects.jpg",
+      "size": 166574,
+      "name": "13thASOS_CrestJulieEffects.jpg",
+      "type": "Jpg",
+      "initialSize": 166574,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7dff8831": {
+      "id": "7dff8831",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\2-4Crest.png",
+      "size": 4122,
+      "name": "2-4Crest.png",
+      "type": "Png",
+      "initialSize": 4122,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3211c2d3": {
+      "id": "3211c2d3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\2-8CAB_2-4Crest.png",
+      "size": 6231,
+      "name": "2-8CAB_2-4Crest.png",
+      "type": "Png",
+      "initialSize": 6231,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8c34bb25": {
+      "id": "8c34bb25",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\204thBDE_2-4Crest.png",
+      "size": 3840,
+      "name": "204thBDE_2-4Crest.png",
+      "type": "Png",
+      "initialSize": 3840,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1fd0d60e": {
+      "id": "1fd0d60e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\242dEODCrest.png",
+      "size": 6503,
+      "name": "242dEODCrest.png",
+      "type": "Png",
+      "initialSize": 6503,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cfe21ce6": {
+      "id": "cfe21ce6",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\2ndSPTBN_2-4Crest.png",
+      "size": 6379,
+      "name": "2ndSPTBN_2-4Crest.png",
+      "type": "Png",
+      "initialSize": 6379,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a740ed46": {
+      "id": "a740ed46",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\3-16_2-4Crest.png",
+      "size": 5659,
+      "name": "3-16_2-4Crest.png",
+      "type": "Png",
+      "initialSize": 5659,
+      "status": "NOT_OPTIMIZED"
+    },
+    "18cc5a1d": {
+      "id": "18cc5a1d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\4-4Crest.png",
+      "size": 3846,
+      "name": "4-4Crest.png",
+      "type": "Png",
+      "initialSize": 3846,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d508ee58": {
+      "id": "d508ee58",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\43rd_sbde.png",
+      "size": 17493,
+      "name": "43rd_sbde.png",
+      "type": "Png",
+      "initialSize": 17493,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b9589819": {
+      "id": "b9589819",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\4ID_Crest_Effects.png",
+      "size": 2523,
+      "name": "4ID_Crest_Effects.png",
+      "type": "Png",
+      "initialSize": 2523,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0b097a8e": {
+      "id": "0b097a8e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\4thENGBTN_Crest.png",
+      "size": 8087,
+      "name": "4thENGBTN_Crest.png",
+      "type": "Png",
+      "initialSize": 8087,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b991d101": {
+      "id": "b991d101",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\52ndENGBTN_Crest.png",
+      "size": 6337,
+      "name": "52ndENGBTN_Crest.png",
+      "type": "Png",
+      "initialSize": 6337,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9f6cfe7f": {
+      "id": "9f6cfe7f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\71stORDCrest.png",
+      "size": 7831,
+      "name": "71stORDCrest.png",
+      "type": "Png",
+      "initialSize": 7831,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0a7df5e2": {
+      "id": "0a7df5e2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\759thMPBTN_Crest.png",
+      "size": 11943,
+      "name": "759thMPBTN_Crest.png",
+      "type": "Png",
+      "initialSize": 11943,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9a0caafd": {
+      "id": "9a0caafd",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\AFEES.jpg",
+      "size": 3538,
+      "name": "AFEES.jpg",
+      "type": "Jpg",
+      "initialSize": 3538,
+      "status": "NOT_OPTIMIZED"
+    },
+    "792fe4a4": {
+      "id": "792fe4a4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\AMC_shoulder_insignia.png",
+      "size": 2560,
+      "name": "AMC_shoulder_insignia.png",
+      "type": "Png",
+      "initialSize": 2560,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bf3f0eb4": {
+      "id": "bf3f0eb4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\CarsonLiveAndOnDemand_ButtonSM.jpg",
+      "size": 4080,
+      "name": "CarsonLiveAndOnDemand_ButtonSM.jpg",
+      "type": "Jpg",
+      "initialSize": 4080,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b1442dc2": {
+      "id": "b1442dc2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\CivilianHumanResourceAgency.jpg",
+      "size": 18260,
+      "name": "CivilianHumanResourceAgency.jpg",
+      "type": "Jpg",
+      "initialSize": 18260,
+      "status": "NOT_OPTIMIZED"
+    },
+    "dd21baa4": {
+      "id": "dd21baa4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\commissary.png",
+      "size": 9126,
+      "name": "commissary.png",
+      "type": "Png",
+      "initialSize": 9126,
+      "status": "NOT_OPTIMIZED"
+    },
+    "53c75926": {
+      "id": "53c75926",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\dencom_logo.jpg",
+      "size": 20177,
+      "name": "dencom_logo.jpg",
+      "type": "Jpg",
+      "initialSize": 20177,
+      "status": "NOT_OPTIMIZED"
+    },
+    "912a04e9": {
+      "id": "912a04e9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\DoDSeal.png",
+      "size": 8962,
+      "name": "DoDSeal.png",
+      "type": "Png",
+      "initialSize": 8962,
+      "status": "NOT_OPTIMIZED"
+    },
+    "666bf3f6": {
+      "id": "666bf3f6",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\DPWL.jpg",
+      "size": 4914,
+      "name": "DPWL.jpg",
+      "type": "Jpg",
+      "initialSize": 4914,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ea84e863": {
+      "id": "ea84e863",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\DSTB_Crest.jpg",
+      "size": 3486,
+      "name": "DSTB_Crest.jpg",
+      "type": "Jpg",
+      "initialSize": 3486,
+      "status": "NOT_OPTIMIZED"
+    },
+    "659e480e": {
+      "id": "659e480e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\Each3d_web%20copy.jpg",
+      "size": 53347,
+      "name": "Each3d_web%20copy.jpg",
+      "type": "Jpg",
+      "initialSize": 53347,
+      "status": "NOT_OPTIMIZED"
+    },
+    "661438b3": {
+      "id": "661438b3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\10th-csh.png",
+      "size": 2628,
+      "name": "10th-csh.png",
+      "type": "Png",
+      "initialSize": 2628,
+      "status": "NOT_OPTIMIZED"
+    },
+    "91a83ce2": {
+      "id": "91a83ce2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\13thASOS_CrestJulieEffects.png",
+      "size": 10354,
+      "name": "13thASOS_CrestJulieEffects.png",
+      "type": "Png",
+      "initialSize": 10354,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1b1128ff": {
+      "id": "1b1128ff",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\43rd_sbde.png",
+      "size": 8221,
+      "name": "43rd_sbde.png",
+      "type": "Png",
+      "initialSize": 8221,
+      "status": "NOT_OPTIMIZED"
+    },
+    "be81691e": {
+      "id": "be81691e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\4ID_Crest_Effects.png",
+      "size": 8626,
+      "name": "4ID_Crest_Effects.png",
+      "type": "Png",
+      "initialSize": 8626,
+      "status": "NOT_OPTIMIZED"
+    },
+    "27c447b8": {
+      "id": "27c447b8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\4thENGBTN_Crest.png",
+      "size": 7399,
+      "name": "4thENGBTN_Crest.png",
+      "type": "Png",
+      "initialSize": 7399,
+      "status": "NOT_OPTIMIZED"
+    },
+    "de416642": {
+      "id": "de416642",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\52ndENGBTN_Crest.png",
+      "size": 6325,
+      "name": "52ndENGBTN_Crest.png",
+      "type": "Png",
+      "initialSize": 6325,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d009093c": {
+      "id": "d009093c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\71stORDCrest.png",
+      "size": 15524,
+      "name": "71stORDCrest.png",
+      "type": "Png",
+      "initialSize": 15524,
+      "status": "NOT_OPTIMIZED"
+    },
+    "97f9ded9": {
+      "id": "97f9ded9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\759thMPBTN_Crest.png",
+      "size": 10616,
+      "name": "759thMPBTN_Crest.png",
+      "type": "Png",
+      "initialSize": 10616,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cb92716e": {
+      "id": "cb92716e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\AMC_shoulder_insignia.png",
+      "size": 1712,
+      "name": "AMC_shoulder_insignia.png",
+      "type": "Png",
+      "initialSize": 1712,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ba853f8d": {
+      "id": "ba853f8d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\CivilianHumanResourceAgency.png",
+      "size": 11507,
+      "name": "CivilianHumanResourceAgency.png",
+      "type": "Png",
+      "initialSize": 11507,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f510ab0c": {
+      "id": "f510ab0c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\commissary.png",
+      "size": 16273,
+      "name": "commissary.png",
+      "type": "Png",
+      "initialSize": 16273,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bb2c5d30": {
+      "id": "bb2c5d30",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\dencom_logo.png",
+      "size": 16629,
+      "name": "dencom_logo.png",
+      "type": "Png",
+      "initialSize": 16629,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ba9470cc": {
+      "id": "ba9470cc",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\DPWL.png",
+      "size": 10100,
+      "name": "DPWL.png",
+      "type": "Png",
+      "initialSize": 10100,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6c871db7": {
+      "id": "6c871db7",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\FortCarsonLogo_Effects.png",
+      "size": 10656,
+      "name": "FortCarsonLogo_Effects.png",
+      "type": "Png",
+      "initialSize": 10656,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bb6327a0": {
+      "id": "bb6327a0",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\IMCO_ByJulie.png",
+      "size": 7661,
+      "name": "IMCO_ByJulie.png",
+      "type": "Png",
+      "initialSize": 7661,
+      "status": "NOT_OPTIMIZED"
+    },
+    "940e7e91": {
+      "id": "940e7e91",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\MEDCOM.png",
+      "size": 9376,
+      "name": "MEDCOM.png",
+      "type": "Png",
+      "initialSize": 9376,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a3aaf14f": {
+      "id": "a3aaf14f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\MSE.png",
+      "size": 5738,
+      "name": "MSE.png",
+      "type": "Png",
+      "initialSize": 5738,
+      "status": "NOT_OPTIMIZED"
+    },
+    "592535ca": {
+      "id": "592535ca",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\mwr.png",
+      "size": 6332,
+      "name": "mwr.png",
+      "type": "Png",
+      "initialSize": 6332,
+      "status": "NOT_OPTIMIZED"
+    },
+    "94cba58b": {
+      "id": "94cba58b",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\NETCOM_Crest_Gennitti.png",
+      "size": 7907,
+      "name": "NETCOM_Crest_Gennitti.png",
+      "type": "Png",
+      "initialSize": 7907,
+      "status": "NOT_OPTIMIZED"
+    },
+    "55e56087": {
+      "id": "55e56087",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\NewIMCOMlogo2.png",
+      "size": 5498,
+      "name": "NewIMCOMlogo2.png",
+      "type": "Png",
+      "initialSize": 5498,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4befffa5": {
+      "id": "4befffa5",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\PublicAffairsCrest.png",
+      "size": 10625,
+      "name": "PublicAffairsCrest.png",
+      "type": "Png",
+      "initialSize": 10625,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5041254c": {
+      "id": "5041254c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\px.png",
+      "size": 4421,
+      "name": "px.png",
+      "type": "Png",
+      "initialSize": 4421,
+      "status": "NOT_OPTIMIZED"
+    },
+    "587e51af": {
+      "id": "587e51af",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\USAG_Crest.png",
+      "size": 6458,
+      "name": "USAG_Crest.png",
+      "type": "Png",
+      "initialSize": 6458,
+      "status": "NOT_OPTIMIZED"
+    },
+    "18eff642": {
+      "id": "18eff642",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\wcap.png",
+      "size": 17305,
+      "name": "wcap.png",
+      "type": "Png",
+      "initialSize": 17305,
+      "status": "NOT_OPTIMIZED"
+    },
+    "aa704991": {
+      "id": "aa704991",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\edited\\wlc-logo.png",
+      "size": 9810,
+      "name": "wlc-logo.png",
+      "type": "Png",
+      "initialSize": 9810,
+      "status": "NOT_OPTIMIZED"
+    },
+    "75d7861c": {
+      "id": "75d7861c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\FacebookIcon.jpg",
+      "size": 1806,
+      "name": "FacebookIcon.jpg",
+      "type": "Jpg",
+      "initialSize": 1806,
+      "status": "NOT_OPTIMIZED"
+    },
+    "114ed7f3": {
+      "id": "114ed7f3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\FacebookIcon.png",
+      "size": 944,
+      "name": "FacebookIcon.png",
+      "type": "Png",
+      "initialSize": 944,
+      "status": "NOT_OPTIMIZED"
+    },
+    "447c4122": {
+      "id": "447c4122",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\Flickr_Icon.png",
+      "size": 1122,
+      "name": "Flickr_Icon.png",
+      "type": "Png",
+      "initialSize": 1122,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d76d551d": {
+      "id": "d76d551d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\FortCarsonLogo.png",
+      "size": 23096,
+      "name": "FortCarsonLogo.png",
+      "type": "Png",
+      "initialSize": 23096,
+      "status": "NOT_OPTIMIZED"
+    },
+    "aa7c2324": {
+      "id": "aa7c2324",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\FortCarsonLogoX3_Effects.png",
+      "size": 62647,
+      "name": "FortCarsonLogoX3_Effects.png",
+      "type": "Png",
+      "initialSize": 62647,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9f5aac05": {
+      "id": "9f5aac05",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\FortCarsonLogo_Effects.png",
+      "size": 44362,
+      "name": "FortCarsonLogo_Effects.png",
+      "type": "Png",
+      "initialSize": 44362,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fa2ec3a8": {
+      "id": "fa2ec3a8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\icon.jpg",
+      "size": 2224,
+      "name": "icon.jpg",
+      "type": "Jpg",
+      "initialSize": 2224,
+      "status": "NOT_OPTIMIZED"
+    },
+    "741fe1dc": {
+      "id": "741fe1dc",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\icons.jpg",
+      "size": 2270,
+      "name": "icons.jpg",
+      "type": "Jpg",
+      "initialSize": 2270,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d07dab22": {
+      "id": "d07dab22",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\IMCO_ByJulie.jpg",
+      "size": 3556,
+      "name": "IMCO_ByJulie.jpg",
+      "type": "Jpg",
+      "initialSize": 3556,
+      "status": "NOT_OPTIMIZED"
+    },
+    "81dc063c": {
+      "id": "81dc063c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\MEDCOM.jpg",
+      "size": 37215,
+      "name": "MEDCOM.jpg",
+      "type": "Jpg",
+      "initialSize": 37215,
+      "status": "NOT_OPTIMIZED"
+    },
+    "092b43e0": {
+      "id": "092b43e0",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\MSE.png",
+      "size": 430858,
+      "name": "MSE.png",
+      "type": "Png",
+      "initialSize": 430858,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f15e7ca4": {
+      "id": "f15e7ca4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\MSE_Crest.png",
+      "size": 3314,
+      "name": "MSE_Crest.png",
+      "type": "Png",
+      "initialSize": 3314,
+      "status": "NOT_OPTIMIZED"
+    },
+    "08fa4425": {
+      "id": "08fa4425",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\mwr.png",
+      "size": 16475,
+      "name": "mwr.png",
+      "type": "Png",
+      "initialSize": 16475,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cf591878": {
+      "id": "cf591878",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\NETCOM.png",
+      "size": 18431,
+      "name": "NETCOM.png",
+      "type": "Png",
+      "initialSize": 18431,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7fc7cc2a": {
+      "id": "7fc7cc2a",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\NETCOM_Crest_Gennitti.jpg",
+      "size": 452522,
+      "name": "NETCOM_Crest_Gennitti.jpg",
+      "type": "Jpg",
+      "initialSize": 452522,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a70aa808": {
+      "id": "a70aa808",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\NewIMCOMlogo2.jpg",
+      "size": 194273,
+      "name": "NewIMCOMlogo2.jpg",
+      "type": "Jpg",
+      "initialSize": 194273,
+      "status": "NOT_OPTIMIZED"
+    },
+    "969b331f": {
+      "id": "969b331f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\PAO_Seal.png",
+      "size": 3316,
+      "name": "PAO_Seal.png",
+      "type": "Png",
+      "initialSize": 3316,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6ab54a21": {
+      "id": "6ab54a21",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\pdf_icon.png",
+      "size": 1538,
+      "name": "pdf_icon.png",
+      "type": "Png",
+      "initialSize": 1538,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2cfe948e": {
+      "id": "2cfe948e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\Podcast_Feed_Icon.png",
+      "size": 16954,
+      "name": "Podcast_Feed_Icon.png",
+      "type": "Png",
+      "initialSize": 16954,
+      "status": "NOT_OPTIMIZED"
+    },
+    "33c17af6": {
+      "id": "33c17af6",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\px.png",
+      "size": 8499,
+      "name": "px.png",
+      "type": "Png",
+      "initialSize": 8499,
+      "status": "NOT_OPTIMIZED"
+    },
+    "93a78cfb": {
+      "id": "93a78cfb",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\RSSFeed_icon.jpg",
+      "size": 2915,
+      "name": "RSSFeed_icon.jpg",
+      "type": "Jpg",
+      "initialSize": 2915,
+      "status": "NOT_OPTIMIZED"
+    },
+    "aa8b9126": {
+      "id": "aa8b9126",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\RSS_Feed_Icon.png",
+      "size": 1327,
+      "name": "RSS_Feed_Icon.png",
+      "type": "Png",
+      "initialSize": 1327,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b6145a06": {
+      "id": "b6145a06",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\TwitterIcon.jpg",
+      "size": 2202,
+      "name": "TwitterIcon.jpg",
+      "type": "Jpg",
+      "initialSize": 2202,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a050c32c": {
+      "id": "a050c32c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\twitter_icon.png",
+      "size": 1087,
+      "name": "twitter_icon.png",
+      "type": "Png",
+      "initialSize": 1087,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a4706737": {
+      "id": "a4706737",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\USAG_Crest.png",
+      "size": 6723,
+      "name": "USAG_Crest.png",
+      "type": "Png",
+      "initialSize": 6723,
+      "status": "NOT_OPTIMIZED"
+    },
+    "53beff28": {
+      "id": "53beff28",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\wcap.png",
+      "size": 35180,
+      "name": "wcap.png",
+      "type": "Png",
+      "initialSize": 35180,
+      "status": "NOT_OPTIMIZED"
+    },
+    "083e380c": {
+      "id": "083e380c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\wlc-logo.png",
+      "size": 13485,
+      "name": "wlc-logo.png",
+      "type": "Png",
+      "initialSize": 13485,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d6da74ae": {
+      "id": "d6da74ae",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\crests\\WordIcon.png",
+      "size": 1582,
+      "name": "WordIcon.png",
+      "type": "Png",
+      "initialSize": 1582,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d3ad6d3e": {
+      "id": "d3ad6d3e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\diamond_bullet.png",
+      "size": 119,
+      "name": "diamond_bullet.png",
+      "type": "Png",
+      "initialSize": 119,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e0985d1f": {
+      "id": "e0985d1f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\FB-f-Logo__blue_29.png",
+      "size": 1199,
+      "name": "FB-f-Logo__blue_29.png",
+      "type": "Png",
+      "initialSize": 1199,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a371436c": {
+      "id": "a371436c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\homepage_banner.png",
+      "size": 21828,
+      "name": "homepage_banner.png",
+      "type": "Png",
+      "initialSize": 21828,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ad2b91a2": {
+      "id": "ad2b91a2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\anderson_lg.jpg",
+      "size": 15471,
+      "name": "anderson_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 15471,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2ec908e6": {
+      "id": "2ec908e6",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\anderson_smlr.jpg",
+      "size": 8148,
+      "name": "anderson_smlr.jpg",
+      "type": "Jpg",
+      "initialSize": 8148,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2a645d05": {
+      "id": "2a645d05",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\bills-large.jpg",
+      "size": 16847,
+      "name": "bills-large.jpg",
+      "type": "Jpg",
+      "initialSize": 16847,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5724c287": {
+      "id": "5724c287",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\bills.jpg",
+      "size": 22228,
+      "name": "bills.jpg",
+      "type": "Jpg",
+      "initialSize": 22228,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7c6fca68": {
+      "id": "7c6fca68",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\cdr-large.jpg",
+      "size": 15086,
+      "name": "cdr-large.jpg",
+      "type": "Jpg",
+      "initialSize": 15086,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4e06d2b9": {
+      "id": "4e06d2b9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\cdr.jpg",
+      "size": 6346,
+      "name": "cdr.jpg",
+      "type": "Jpg",
+      "initialSize": 6346,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5cdd06bb": {
+      "id": "5cdd06bb",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\chisholm_lg.jpg",
+      "size": 6827,
+      "name": "chisholm_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 6827,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1b5adae2": {
+      "id": "1b5adae2",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\chisholm_small.jpg",
+      "size": 5569,
+      "name": "chisholm_small.jpg",
+      "type": "Jpg",
+      "initialSize": 5569,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7c8af127": {
+      "id": "7c8af127",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\clark_lg.jpg",
+      "size": 69389,
+      "name": "clark_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 69389,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4dfff345": {
+      "id": "4dfff345",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\clark_small.jpg",
+      "size": 32870,
+      "name": "clark_small.jpg",
+      "type": "Jpg",
+      "initialSize": 32870,
+      "status": "NOT_OPTIMIZED"
+    },
+    "790df762": {
+      "id": "790df762",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\cos-large.jpg",
+      "size": 19480,
+      "name": "cos-large.jpg",
+      "type": "Jpg",
+      "initialSize": 19480,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fcfa3b74": {
+      "id": "fcfa3b74",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\cos.jpg",
+      "size": 8281,
+      "name": "cos.jpg",
+      "type": "Jpg",
+      "initialSize": 8281,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5fa68ec4": {
+      "id": "5fa68ec4",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\csm-green-big.jpg",
+      "size": 18820,
+      "name": "csm-green-big.jpg",
+      "type": "Jpg",
+      "initialSize": 18820,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3a13e02c": {
+      "id": "3a13e02c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\csm-green.jpg",
+      "size": 9237,
+      "name": "csm-green.jpg",
+      "type": "Jpg",
+      "initialSize": 9237,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e434a577": {
+      "id": "e434a577",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\csm-large.jpg",
+      "size": 21722,
+      "name": "csm-large.jpg",
+      "type": "Jpg",
+      "initialSize": 21722,
+      "status": "NOT_OPTIMIZED"
+    },
+    "02ab8ef1": {
+      "id": "02ab8ef1",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\csm.jpg",
+      "size": 8876,
+      "name": "csm.jpg",
+      "type": "Jpg",
+      "initialSize": 8876,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e1bba654": {
+      "id": "e1bba654",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\dailey_lg.jpg",
+      "size": 16355,
+      "name": "dailey_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 16355,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0978f0b7": {
+      "id": "0978f0b7",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\dailey_small.jpg",
+      "size": 8322,
+      "name": "dailey_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8322,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ec7f1314": {
+      "id": "ec7f1314",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\davis_lg.jpg",
+      "size": 44254,
+      "name": "davis_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 44254,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7aec44d0": {
+      "id": "7aec44d0",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\davis_small.jpg",
+      "size": 6320,
+      "name": "davis_small.jpg",
+      "type": "Jpg",
+      "initialSize": 6320,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8bf96c92": {
+      "id": "8bf96c92",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\doty_lg.jpg",
+      "size": 17745,
+      "name": "doty_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 17745,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c5b64003": {
+      "id": "c5b64003",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\doty_small.jpg",
+      "size": 9276,
+      "name": "doty_small.jpg",
+      "type": "Jpg",
+      "initialSize": 9276,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3c83c94c": {
+      "id": "3c83c94c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\grosso_lg.jpg",
+      "size": 22054,
+      "name": "grosso_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 22054,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6ebbcf0e": {
+      "id": "6ebbcf0e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\grosso_small.jpg",
+      "size": 10654,
+      "name": "grosso_small.jpg",
+      "type": "Jpg",
+      "initialSize": 10654,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ce99c087": {
+      "id": "ce99c087",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\kilpatrick_lg.jpg",
+      "size": 18071,
+      "name": "kilpatrick_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 18071,
+      "status": "NOT_OPTIMIZED"
+    },
+    "578af669": {
+      "id": "578af669",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\kilpatrick_small.jpg",
+      "size": 8374,
+      "name": "kilpatrick_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8374,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7e28cef8": {
+      "id": "7e28cef8",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\kurak_lg.jpg",
+      "size": 18381,
+      "name": "kurak_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 18381,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0db86fae": {
+      "id": "0db86fae",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\kurak_small.jpg",
+      "size": 9259,
+      "name": "kurak_small.jpg",
+      "type": "Jpg",
+      "initialSize": 9259,
+      "status": "NOT_OPTIMIZED"
+    },
+    "02b82137": {
+      "id": "02b82137",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\lacamera-lg.jpg",
+      "size": 12351,
+      "name": "lacamera-lg.jpg",
+      "type": "Jpg",
+      "initialSize": 12351,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6544ed1a": {
+      "id": "6544ed1a",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\lacamera.jpg",
+      "size": 8173,
+      "name": "lacamera.jpg",
+      "type": "Jpg",
+      "initialSize": 8173,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7968ecac": {
+      "id": "7968ecac",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\mccoy_lg.jpg",
+      "size": 7427,
+      "name": "mccoy_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 7427,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e3aaf6d9": {
+      "id": "e3aaf6d9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\mccoy_small.jpg",
+      "size": 4841,
+      "name": "mccoy_small.jpg",
+      "type": "Jpg",
+      "initialSize": 4841,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3fd4502e": {
+      "id": "3fd4502e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\mclaughlin_lg.jpg",
+      "size": 18005,
+      "name": "mclaughlin_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 18005,
+      "status": "NOT_OPTIMIZED"
+    },
+    "232f860b": {
+      "id": "232f860b",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\mclaughlin_small.jpg",
+      "size": 8753,
+      "name": "mclaughlin_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8753,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e192c022": {
+      "id": "e192c022",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\perkins_lg.jpg",
+      "size": 16038,
+      "name": "perkins_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 16038,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9d06ff1d": {
+      "id": "9d06ff1d",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\perkins_small.jpg",
+      "size": 8168,
+      "name": "perkins_small.jpg",
+      "type": "Jpg",
+      "initialSize": 8168,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fd0fa344": {
+      "id": "fd0fa344",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\rainey-large.jpg",
+      "size": 15465,
+      "name": "rainey-large.jpg",
+      "type": "Jpg",
+      "initialSize": 15465,
+      "status": "NOT_OPTIMIZED"
+    },
+    "31c62362": {
+      "id": "31c62362",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\rainey.jpg",
+      "size": 6641,
+      "name": "rainey.jpg",
+      "type": "Jpg",
+      "initialSize": 6641,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fbc7a7cf": {
+      "id": "fbc7a7cf",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\stall_lg.jpg",
+      "size": 11978,
+      "name": "stall_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 11978,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4a8cc6b9": {
+      "id": "4a8cc6b9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\stall_smlr.jpg",
+      "size": 9019,
+      "name": "stall_smlr.jpg",
+      "type": "Jpg",
+      "initialSize": 9019,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a2bcaa43": {
+      "id": "a2bcaa43",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\COLMcLaughlin_GarrisonUSAG.jpg",
+      "size": 16142,
+      "name": "COLMcLaughlin_GarrisonUSAG.jpg",
+      "type": "Jpg",
+      "initialSize": 16142,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5278fce3": {
+      "id": "5278fce3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\CSMKilpatrick_GarrisonUSAG.jpg",
+      "size": 16078,
+      "name": "CSMKilpatrick_GarrisonUSAG.jpg",
+      "type": "Jpg",
+      "initialSize": 16078,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ac476046": {
+      "id": "ac476046",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\CSM_Dailey.jpg",
+      "size": 16216,
+      "name": "CSM_Dailey.jpg",
+      "type": "Jpg",
+      "initialSize": 16216,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c8805a48": {
+      "id": "c8805a48",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\DOTY2.jpg",
+      "size": 742395,
+      "name": "DOTY2.jpg",
+      "type": "Jpg",
+      "initialSize": 742395,
+      "status": "NOT_OPTIMIZED"
+    },
+    "67deca2a": {
+      "id": "67deca2a",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\DOTY2.png",
+      "size": 223113,
+      "name": "DOTY2.png",
+      "type": "Png",
+      "initialSize": 223113,
+      "status": "NOT_OPTIMIZED"
+    },
+    "69984c28": {
+      "id": "69984c28",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\KURAK.jpg",
+      "size": 784544,
+      "name": "KURAK.jpg",
+      "type": "Jpg",
+      "initialSize": 784544,
+      "status": "NOT_OPTIMIZED"
+    },
+    "72c06d1f": {
+      "id": "72c06d1f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\KURAK.png",
+      "size": 360068,
+      "name": "KURAK.png",
+      "type": "Png",
+      "initialSize": 360068,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3d00d641": {
+      "id": "3d00d641",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\MG_Perkins.jpg",
+      "size": 15865,
+      "name": "MG_Perkins.jpg",
+      "type": "Jpg",
+      "initialSize": 15865,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b2a05661": {
+      "id": "b2a05661",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\MSEDirector_Wininger_lg.jpg",
+      "size": 7718,
+      "name": "MSEDirector_Wininger_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 7718,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0a9649dc": {
+      "id": "0a9649dc",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\SGMDavis_MSE.jpg",
+      "size": 13401,
+      "name": "SGMDavis_MSE.jpg",
+      "type": "Jpg",
+      "initialSize": 13401,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0fa0c7f5": {
+      "id": "0fa0c7f5",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\Support\\StevenMcCoy_GarrisonUSAG.jpg",
+      "size": 7522,
+      "name": "StevenMcCoy_GarrisonUSAG.jpg",
+      "type": "Jpg",
+      "initialSize": 7522,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d1482f56": {
+      "id": "d1482f56",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\tarsa-large.jpg",
+      "size": 74686,
+      "name": "tarsa-large.jpg",
+      "type": "Jpg",
+      "initialSize": 74686,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2b88f8ff": {
+      "id": "2b88f8ff",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\tarsa.jpg",
+      "size": 28792,
+      "name": "tarsa.jpg",
+      "type": "Jpg",
+      "initialSize": 28792,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9e57f6bd": {
+      "id": "9e57f6bd",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\thomson-large.jpg",
+      "size": 17169,
+      "name": "thomson-large.jpg",
+      "type": "Jpg",
+      "initialSize": 17169,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4ef0a371": {
+      "id": "4ef0a371",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\thomson.jpg",
+      "size": 7055,
+      "name": "thomson.jpg",
+      "type": "Jpg",
+      "initialSize": 7055,
+      "status": "NOT_OPTIMIZED"
+    },
+    "11d263a3": {
+      "id": "11d263a3",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\vacant.jpg",
+      "size": 2395,
+      "name": "vacant.jpg",
+      "type": "Jpg",
+      "initialSize": 2395,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d916a912": {
+      "id": "d916a912",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\wininger_lg.jpg",
+      "size": 7718,
+      "name": "wininger_lg.jpg",
+      "type": "Jpg",
+      "initialSize": 7718,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a71f276c": {
+      "id": "a71f276c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\leaders\\wininger_small.jpg",
+      "size": 5364,
+      "name": "wininger_small.jpg",
+      "type": "Jpg",
+      "initialSize": 5364,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0ac9a804": {
+      "id": "0ac9a804",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\mountaineer-color.png",
+      "size": 13972,
+      "name": "mountaineer-color.png",
+      "type": "Png",
+      "initialSize": 13972,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e6e671b5": {
+      "id": "e6e671b5",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\museum.png",
+      "size": 118107,
+      "name": "museum.png",
+      "type": "Png",
+      "initialSize": 118107,
+      "status": "NOT_OPTIMIZED"
+    },
+    "239c7ed7": {
+      "id": "239c7ed7",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\orbit\\placeholder.jpg",
+      "size": 163041,
+      "name": "placeholder.jpg",
+      "type": "Jpg",
+      "initialSize": 163041,
+      "status": "NOT_OPTIMIZED"
+    },
+    "26196dbe": {
+      "id": "26196dbe",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\paper-fibers2.png",
+      "size": 1438,
+      "name": "paper-fibers2.png",
+      "type": "Png",
+      "initialSize": 1438,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f20cbd6c": {
+      "id": "f20cbd6c",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\SHARP_LOGO2.jpg",
+      "size": 19732,
+      "name": "SHARP_LOGO2.jpg",
+      "type": "Jpg",
+      "initialSize": 19732,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b9f2c2d9": {
+      "id": "b9f2c2d9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\sun_icon.png",
+      "size": 755,
+      "name": "sun_icon.png",
+      "type": "Png",
+      "initialSize": 755,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2507e5b1": {
+      "id": "2507e5b1",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\img\\twitter-bird-light-bgs.png",
+      "size": 2162,
+      "name": "twitter-bird-light-bgs.png",
+      "type": "Png",
+      "initialSize": 2162,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ca75afb9": {
+      "id": "ca75afb9",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\includes\\js\\Respond-master\\cross-domain\\respond.proxy.png",
+      "size": 82,
+      "name": "respond.proxy.png",
+      "type": "Png",
+      "initialSize": 82,
+      "status": "NOT_OPTIMIZED"
+    },
+    "09c7ba6f": {
+      "id": "09c7ba6f",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\flag - Copy.png",
+      "size": 148920,
+      "name": "flag - Copy.png",
+      "type": "Png",
+      "initialSize": 148920,
+      "status": "NOT_OPTIMIZED"
+    },
+    "742f88cc": {
+      "id": "742f88cc",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\flag.png",
+      "size": 813552,
+      "name": "flag.png",
+      "type": "Png",
+      "initialSize": 813552,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5216609b": {
+      "id": "5216609b",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\flag3.png",
+      "size": 101552,
+      "name": "flag3.png",
+      "type": "Png",
+      "initialSize": 101552,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1236ec9e": {
+      "id": "1236ec9e",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\hq.png",
+      "size": 1974524,
+      "name": "hq.png",
+      "type": "Png",
+      "initialSize": 1974524,
+      "status": "NOT_OPTIMIZED"
+    },
+    "84ee0ab5": {
+      "id": "84ee0ab5",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\kennabec.png",
+      "size": 2334753,
+      "name": "kennabec.png",
+      "type": "Png",
+      "initialSize": 2334753,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d7533ebc": {
+      "id": "d7533ebc",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\kennabec1.png",
+      "size": 1946742,
+      "name": "kennabec1.png",
+      "type": "Png",
+      "initialSize": 1946742,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a6384c70": {
+      "id": "a6384c70",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\Kit-carson.png",
+      "size": 391679,
+      "name": "Kit-carson.png",
+      "type": "Png",
+      "initialSize": 391679,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2e04ac24": {
+      "id": "2e04ac24",
+      "pid": "f2cdfa91",
+      "path": "fortcarson-2014\\_support\\sky-dsc01465-dws_r1_c1.png",
+      "size": 3112885,
+      "name": "sky-dsc01465-dws_r1_c1.png",
+      "type": "Png",
+      "initialSize": 3112885,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e45b79cc": {
+      "id": "e45b79cc",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\combat-readiness-safety.png",
+      "size": 9620,
+      "name": "combat-readiness-safety.png",
+      "type": "Png",
+      "initialSize": 9620,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d1b0840e": {
+      "id": "d1b0840e",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\garrison-safety.png",
+      "size": 156089,
+      "name": "garrison-safety.png",
+      "type": "Png",
+      "initialSize": 156089,
+      "status": "NOT_OPTIMIZED"
+    },
+    "466b4c2c": {
+      "id": "466b4c2c",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\imcom.png",
+      "size": 69273,
+      "name": "imcom.png",
+      "type": "Png",
+      "initialSize": 69273,
+      "status": "NOT_OPTIMIZED"
+    },
+    "943cd358": {
+      "id": "943cd358",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\military-1source.png",
+      "size": 78166,
+      "name": "military-1source.png",
+      "type": "Png",
+      "initialSize": 78166,
+      "status": "NOT_OPTIMIZED"
+    },
+    "dfc84a41": {
+      "id": "dfc84a41",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\resiliance.png",
+      "size": 32190,
+      "name": "resiliance.png",
+      "type": "Png",
+      "initialSize": 32190,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9729dbb1": {
+      "id": "9729dbb1",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\safety-cest.png",
+      "size": 161615,
+      "name": "safety-cest.png",
+      "type": "Png",
+      "initialSize": 161615,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6d8053d3": {
+      "id": "6d8053d3",
+      "pid": "f2cdfa91",
+      "path": "garrison-safety\\_assets\\images\\safetyCover.jpg",
+      "size": 100481,
+      "name": "safetyCover.jpg",
+      "type": "Jpg",
+      "initialSize": 100481,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f35df6ab": {
+      "id": "f35df6ab",
+      "pid": "f2cdfa91",
+      "path": "pao\\includes\\images\\color-guard.jpg",
+      "size": 25436,
+      "name": "color-guard.jpg",
+      "type": "Jpg",
+      "initialSize": 25436,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
