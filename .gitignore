@@ -31,3 +31,4 @@ _notes/
 *.lck
 *.css
 fortcarson-2014/includes/js/vendor/*
+fortcarson-2014/includes/js/min/app.min.js
