@@ -866,7 +866,7 @@
 			<img src="../garrison-safety/_assets/images/safety-cest.png" alt=""/>
 		</div>
 		<div class="scroller">
-        	<p>Recent safety accidents</p>
+        	<p>Recent Safety Accidents</p>
      		<iframe src="https://safety.army.mil/plr_scroller_iframe.html" width="260" height="200" scrolling="no" frameborder="0"></iframe>
      	</div>
             
