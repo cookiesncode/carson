@@ -4,9 +4,47 @@ $(function () {
 	var $loadtext = $('<p id="load-text">Loading images from Flickr...</p>');
 	var flickr_id = '120064813@N04';
 	var flickr_method = 'flickr.photosets.getPhotos';
-	var flickr_limit = 10;
+	var flickr_limit = 50;
 	$('.gallery').append($loadtext);
+
+	// this is for the 10th CSH home page recent galleries seciton
+	$('#ball').jflickrfeed({
+		limit: 1,
+		qstrings: {
+			method: flickr_method,
+			id: flickr_id,
+			photoset_id: '72157642213569784'
+		},
+		itemTemplate: '<a class="th radius" href="galleries/hospital-balls.html"><img src="{{image_q}}" alt="{{title}}" /></a>'
+	}, function (data) {
+		$('#load-text').remove();
+	});
+		
+	$('#ftx').jflickrfeed({
+		limit: 1,
+		qstrings: {
+			method: flickr_method,
+			id: flickr_id,
+			photoset_id: '72157642212452043'
+		},
+		itemTemplate: '<a class="th radius" href="galleries/hospital-ftx.html"><img src="{{image_q}}" alt="{{title}}" /></a>'
+	}, function (data) {
+		$('#load-text').remove();
+	});
 	
+	$('#events').jflickrfeed({
+		limit: 1,
+		qstrings: {
+			method: flickr_method,
+			id: flickr_id,
+			photoset_id: '72157642209082125'
+		},
+		itemTemplate: '<a class="th radius" href="galleries/hospital-events.html"><img src="{{image_q}}" alt="{{title}}" /></a>'
+	}, function (data) {
+		$('#load-text').remove();
+	});
+	
+// This is for the individual gallery pages	
 	$('#gallery-events').jflickrfeed({
 		limit: flickr_limit,
 		qstrings: {
@@ -19,7 +57,7 @@ $(function () {
 		$('#load-text').remove();
 	});
 	
-	$('#gallery-ball').jflickrfeed({
+	$('#ball-gallery').jflickrfeed({
 		limit: flickr_limit,
 		qstrings: {
 			method: 'flickr.photosets.getPhotos',
