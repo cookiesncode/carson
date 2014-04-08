@@ -8,38 +8,38 @@ $(function () {
 	$('.gallery').append($loadtext);
 
 	// this is for the 10th CSH home page recent galleries seciton
-	$('#ball').jflickrfeed({
+	$('#gallery-home').jflickrfeed({
 		limit: 1,
 		qstrings: {
 			method: flickr_method,
 			id: flickr_id,
 			photoset_id: '72157642213569784'
 		},
-		itemTemplate: '<a class="th radius" href="galleries/hospital-balls.html"><img src="{{image_q}}" alt="{{title}}" /></a>'
+		itemTemplate: '<div><a class="th radius" href="galleries/hospital-balls.html"><img src="{{image_q}}" alt="{{title}}" /></a><b>Hospital Ball</b></div>'
 	}, function (data) {
 		$('#load-text').remove();
 	});
 		
-	$('#ftx').jflickrfeed({
+	$('#gallery-home').jflickrfeed({
 		limit: 1,
 		qstrings: {
 			method: flickr_method,
 			id: flickr_id,
 			photoset_id: '72157642212452043'
 		},
-		itemTemplate: '<a class="th radius" href="galleries/hospital-ftx.html"><img src="{{image_q}}" alt="{{title}}" /></a>'
+		itemTemplate: '<div><a class="th radius" href="galleries/hospital-ftx.html"><img src="{{image_q}}" alt="{{title}}" /></a><b>FTX</b></div>'
 	}, function (data) {
 		$('#load-text').remove();
 	});
 	
-	$('#events').jflickrfeed({
+	$('#gallery-home').jflickrfeed({
 		limit: 1,
 		qstrings: {
 			method: flickr_method,
 			id: flickr_id,
 			photoset_id: '72157642209082125'
 		},
-		itemTemplate: '<a class="th radius" href="galleries/hospital-events.html"><img src="{{image_q}}" alt="{{title}}" /></a>'
+		itemTemplate: '<div><a class="th radius" href="galleries/hospital-events.html"><img src="{{image_q}}" alt="{{title}}" /></a><b>Special Events</b></div>'
 	}, function (data) {
 		$('#load-text').remove();
 	});

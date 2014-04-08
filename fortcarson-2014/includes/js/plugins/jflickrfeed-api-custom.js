@@ -47,8 +47,8 @@
 					// update blocked_items array depending if IA is blocking flickr subdomains again
 					var blocked_farms = [4];
 					var image_blocked = false;
-
-					if (i > settings.limit) {
+					
+					if (i >= settings.limit) {
 						return false;
 					}
 

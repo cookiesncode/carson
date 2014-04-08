@@ -90,6 +90,16 @@ table caption {
 .bold {
 	font-weight:bold;
 }
+
+#gallery-home {
+	div {
+		float: left;
+	}
+
+	b {
+		display: block;
+	}
+}
 @media only screen and (min-width: 641px){
 .home-img {
 	background-image:url(../../../10cshweb/_assets/img/home-page.jpg);
